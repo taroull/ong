@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+          xmlns:org="http://www.w3.org/TR/vocab-org/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:vCard="http://www.w3.org/TR/vcard-rdf/">
+          
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/GONZALEZ_ALVAREZ_MA_JESUS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>GONZALEZ ALVAREZ, Mª JESUS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 740671" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ADEJE</vCard:locality> 
+                <vCard:postal-code>38670</vCard:postal-code> 
+                <vCard:street-address>PLAYA PARAISO- URB. PLAYA PARAISO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.1220604, -16.7338211</vCard:geo> 
+            <geo:lat>28.1220604</geo:lat> 
+            <geo:long>-16.7338211</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/SANTANA_PEREZ_MA_DEL_MAR">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>SANTANA PEREZ, Mª DEL MAR</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 781445" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ADEJE</vCard:locality> 
+                <vCard:postal-code>38670</vCard:postal-code> 
+                <vCard:street-address>TIJOCO BAJO- C/ MILAGROSA 5</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.1528598, -16.7653729</vCard:geo> 
+            <geo:lat>28.1528598</geo:lat> 
+            <geo:long>-16.7653729</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/ALMAZAN_LA_CAVE_DULCE_MA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>ALMAZAN LA CAVE, DULCE Mª</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 124309" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>AGÜIMES</vCard:locality> 
+                <vCard:postal-code>35260</vCard:postal-code> 
+                <vCard:street-address>MONTAÑA LOS VELEZ- C/ AMAPOLA 87</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>27.9037307, -15.4083525</vCard:geo> 
+            <geo:lat>27.9037307</geo:lat> 
+            <geo:long>-15.4083525</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/APOLINARIO_HIDALGO_CARMEN_/_JOSE">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>APOLINARIO HIDALGO, CARMEN / JOSE</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 781829" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>AGÜIMES</vCard:locality> 
+                <vCard:postal-code>35260</vCard:postal-code> 
+                <vCard:street-address>TEMISAS- BARRIO DE SAN MIGUEL 23</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>27.90892, -15.50776</vCard:geo> 
+            <geo:lat>27.90892</geo:lat> 
+            <geo:long>-15.50776</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/DORTA_FUMERO_ANGEL_LUIS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>DORTA FUMERO, ANGEL LUIS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 895572" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ALAJERO</vCard:locality> 
+                <vCard:postal-code>38810</vCard:postal-code> 
+                <vCard:street-address>PLAYA SANTIAGO- CTRA. GRAL. DE ALAJERO S/N</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>,</vCard:geo> 
+            <geo:lat /> 
+            <geo:long /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/BLESA_DEL_HOYO_MA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>BLESA DEL HOYO, Mª</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 169523" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ARONA</vCard:locality> 
+                <vCard:postal-code>38650</vCard:postal-code> 
+                <vCard:street-address>GUAZA- AVDA. GUAZA 19</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>,</vCard:geo> 
+            <geo:lat /> 
+            <geo:long /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/ROMERO_SANCHEZ_LUZ">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>ROMERO SANCHEZ, LUZ</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 666072" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ARTENARA</vCard:locality> 
+                <vCard:postal-code>35350</vCard:postal-code> 
+                <vCard:street-address>ARTENARA CASCO- CAMINO DE LA CUEVITA 9</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.0198522, -15.6463205</vCard:geo> 
+            <geo:lat>28.0198522</geo:lat> 
+            <geo:long>-15.6463205</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/YANES_PALENZUELA_MA_DEL_CARMEN">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>YANES PALENZUELA, Mª DEL CARMEN</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 127766" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>BUENAVISTA DEL NORTE</vCard:locality> 
+                <vCard:postal-code>38489</vCard:postal-code> 
+                <vCard:street-address>EL PALMAR- NUCLEO RURAL DEL PALMAR</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.3727951, -16.851763</vCard:geo> 
+            <geo:lat>28.3727951</geo:lat> 
+            <geo:long>-16.851763</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/CASTELLO_GOMEZ_MA_DE_LOS_ANGELES">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CASTELLO GOMEZ, Mª DE LOS ANGELES</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 501403" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>CANDELARIA</vCard:locality> 
+                <vCard:postal-code>38520</vCard:postal-code> 
+                <vCard:street-address>IGUESTE CANDELARIA- VIA DEL CABILDO 134</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.3973787, -16.3435919</vCard:geo> 
+            <geo:lat>28.3973787</geo:lat> 
+            <geo:long>-16.3435919</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/MORENO_TORRES_MA_TERESA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>MORENO TORRES, Mª TERESA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 517717" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>CANDELARIA</vCard:locality> 
+                <vCard:postal-code>38540</vCard:postal-code> 
+                <vCard:street-address>ARAYA- C/ CHICORO 149</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.3624044, -16.3934867</vCard:geo> 
+            <geo:lat>28.3624044</geo:lat> 
+            <geo:long>-16.3934867</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/MORALES_ARMAS_GUALBERTO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>MORALES ARMAS, GUALBERTO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 557091" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>EL PINAR DE EL HIERRO</vCard:locality> 
+                <vCard:postal-code>38917</vCard:postal-code> 
+                <vCard:street-address>LA RESTINGA- C/ ARENAS BLANCAS 64</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>,</vCard:geo> 
+            <geo:lat /> 
+            <geo:long /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/GLEZ_GLEZ_MA_DEL_CARMEN">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>GLEZ GLEZ, Mª DEL CARMEN</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 881953" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GALDAR</vCard:locality> 
+                <vCard:postal-code>35460</vCard:postal-code> 
+                <vCard:street-address>CAIDEROS- C/ PEDRO AGUIAR MOLINA S/N</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>,</vCard:geo> 
+            <geo:lat /> 
+            <geo:long /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/TOHAIMER_ALI_QADRI_ANIS_M.">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>TOHAIMER ALI QADRI, ANIS M.</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 400586" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GARAFIA</vCard:locality> 
+                <vCard:postal-code>38787</vCard:postal-code> 
+                <vCard:street-address>GARAFIA- C/ DIAZ SUAREZ, S/N. Bº SANTO DOMINGO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.829481, -17.947899</vCard:geo> 
+            <geo:lat>28.829481</geo:lat> 
+            <geo:long>-17.947899</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/BONACHERA_REVERON_MA_DEL_MAR">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>BONACHERA REVERON, Mª DEL MAR</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 170196" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GRANADILLA DE ABONA</vCard:locality> 
+                <vCard:postal-code>38595</vCard:postal-code> 
+                <vCard:street-address>CHIMICHE- C/ NUESTRA SEÑORA DEL CARMEN 5</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.1347083, -16.5310466</vCard:geo> 
+            <geo:lat>28.1347083</geo:lat> 
+            <geo:long>-16.5310466</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/DURO_GARCIA_CONCEPCION_EVA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>DURO GARCIA, CONCEPCION EVA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 397110" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GRANADILLA DE ABONA</vCard:locality> 
+                <vCard:postal-code>38610</vCard:postal-code> 
+                <vCard:street-address>AEROPUERTO SUR- AEROPUERTO DE TFE SUR - EDIF TERMINAL P 0</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.0476795, -16.5774327</vCard:geo> 
+            <geo:lat>28.0476795</geo:lat> 
+            <geo:long>-16.5774327</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/ESTEVEZ_MARTINEZ_EDUARDO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>ESTEVEZ MARTINEZ, EDUARDO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 771909" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GRANADILLA DE ABONA</vCard:locality> 
+                <vCard:postal-code>38595</vCard:postal-code> 
+                <vCard:street-address>CHARCO DEL PINO- C/ MENCEY 14</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.11161, -16.59246</vCard:geo> 
+            <geo:lat>28.11161</geo:lat> 
+            <geo:long>-16.59246</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/ABAUNZA_AMIEVA_PILAR">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>ABAUNZA AMIEVA, PILAR</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 569559" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LA ALDEA DE SAN NICOLAS</vCard:locality> 
+                <vCard:postal-code>35478</vCard:postal-code> 
+                <vCard:street-address>TASARTE- CENTRO DE SALUD DE TASARTE, RENTILLA 1</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>27.9822029, -15.7793484</vCard:geo> 
+            <geo:lat>27.9822029</geo:lat> 
+            <geo:long>-15.7793484</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/GUTIERREZ_JIMENEZ_ROSA_NIEVES">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>GUTIERREZ JIMENEZ, ROSA NIEVES</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 340700" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LOS REALEJOS</vCard:locality> 
+                <vCard:postal-code>38413</vCard:postal-code> 
+                <vCard:street-address>CRUZ SANTA- CTRA. NUEVA, EDIFICIO GRANADILLAR 2 L 5</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.3854734, -16.5841956</vCard:geo> 
+            <geo:lat>28.3854734</geo:lat> 
+            <geo:long>-16.5841956</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/LOBO_MARTIN_DE_JORGE_MA_JESUS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>LOBO MARTIN DE JORGE, Mª JESUS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 725013" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>MOGAN</vCard:locality> 
+                <vCard:postal-code>35139</vCard:postal-code> 
+                <vCard:street-address>PLAYA DEL CURA- CENTRO COMERCIAL PLAYA DEL CURA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>,</vCard:geo> 
+            <geo:lat /> 
+            <geo:long /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/MARTINEZ_BERRIEL_ROSARIO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>MARTINEZ BERRIEL, ROSARIO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 620501" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>MOYA</vCard:locality> 
+                <vCard:postal-code>35420</vCard:postal-code> 
+                <vCard:street-address>FONTANALES- C/ PARROCO JUAN DIAZ RODRIGUEZ S/N</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.0569291, -15.6075061</vCard:geo> 
+            <geo:lat>28.0569291</geo:lat> 
+            <geo:long>-15.6075061</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/BENITEZ_ARMAS_MARGARITA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>BENITEZ ARMAS, MARGARITA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 732027" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN BARTOLOME</vCard:locality> 
+                <vCard:postal-code>35107</vCard:postal-code> 
+                <vCard:street-address>SAN BARTOLOME CASCO- C/ TAMARAN 11, TUNTE</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>27.9242495, -15.5731518</vCard:geo> 
+            <geo:lat>27.9242495</geo:lat> 
+            <geo:long>-15.5731518</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/PARRILLA_CABRERA_CONSOLACION">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>PARRILLA CABRERA, CONSOLACION</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 820083" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN BARTOLOME</vCard:locality> 
+                <vCard:postal-code>35509</vCard:postal-code> 
+                <vCard:street-address>SAN BARTOLOMÉ- AEROPUERTO LANZAROTE - TERMINAL 1</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.9535569, -13.6076237</vCard:geo> 
+            <geo:lat>28.9535569</geo:lat> 
+            <geo:long>-13.6076237</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/LOPEZ_TORIBIO_ROBERTO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>LOPEZ TORIBIO, ROBERTO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 784514" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN MIGUEL DE ABONA</vCard:locality> 
+                <vCard:postal-code>38632</vCard:postal-code> 
+                <vCard:street-address>GUARGACHO- C/ ROSALIA DE CASTRO 17</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.0352379, -16.6371713</vCard:geo> 
+            <geo:lat>28.0352379</geo:lat> 
+            <geo:long>-16.6371713</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/DE_LUGO_FERNANDEZ_MA_EUGENIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>DE LUGO FERNANDEZ, Mª EUGENIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 590059" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38130</vCard:postal-code> 
+                <vCard:street-address>TAGANANA- C/ CRUZ DE LIMERA 5</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.5605217, -16.2180199</vCard:geo> 
+            <geo:lat>28.5605217</geo:lat> 
+            <geo:long>-16.2180199</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/GUERRA_DOMINGUEZ_FERNANDO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>GUERRA DOMINGUEZ, FERNANDO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 881874" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA MARIA DE GUIA DE GC</vCard:locality> 
+                <vCard:postal-code>35450</vCard:postal-code> 
+                <vCard:street-address>CASAS AGUILAR- C/ MEDICO ESTEVEZ 1</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.1395339, -15.6327495</vCard:geo> 
+            <geo:lat>28.1395339</geo:lat> 
+            <geo:long>-15.6327495</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/VLQUEZ_MILLARES_MANUEL._VLQUEZ_DE_FUNES_MANUEL">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>VLQUEZ MILLARES, MANUEL. VLQUEZ DE FUNES, MANUEL</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 551944" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA MARIA DE GUIA DE GC</vCard:locality> 
+                <vCard:postal-code>35450</vCard:postal-code> 
+                <vCard:street-address>MONTAÑA ALTA- C/ PIEDRA DE MOLINA 17</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>,</vCard:geo> 
+            <geo:lat /> 
+            <geo:long /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/PRIETO_ARTEAGA_FRANCISCO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>PRIETO ARTEAGA, FRANCISCO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 864247" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTIAGO DEL TEIDE</vCard:locality> 
+                <vCard:postal-code>38690</vCard:postal-code> 
+                <vCard:street-address>ARGUAYO- C/ SAN ISIDRO 19</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.2835509, -16.8016697</vCard:geo> 
+            <geo:lat>28.2835509</geo:lat> 
+            <geo:long>-16.8016697</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/MARTIN_TENORIO_MA_ISABEL">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>MARTIN TENORIO, Mª ISABEL</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 845384" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>TEGUISE</vCard:locality> 
+                <vCard:postal-code>35540</vCard:postal-code> 
+                <vCard:street-address>LA GRACIOSA- C/ GARCIA ESCAMEZ 18. CALETA DE SEBO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>39.0524827, -28.0068979</vCard:geo> 
+            <geo:lat>39.0524827</geo:lat> 
+            <geo:long>-28.0068979</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/GLEZ_VALIDO__LUIS._LEON_ARENCIBIA_MILAGROSA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>GLEZ VALIDO , LUIS. LEON ARENCIBIA, MILAGROSA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 693977" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>TELDE</vCard:locality> 
+                <vCard:postal-code>35210</vCard:postal-code> 
+                <vCard:street-address>HIGUERA CANARIA- CTRA. GRAL. DE LA HIGUERA CANARIA 35</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>27.9955313, -15.4173726</vCard:geo> 
+            <geo:lat>27.9955313</geo:lat> 
+            <geo:long>-15.4173726</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/RODRIGUEZ_MEDINA_ELBA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>RODRIGUEZ MEDINA, ELBA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 630016" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>TEROR</vCard:locality> 
+                <vCard:postal-code>35330</vCard:postal-code> 
+                <vCard:street-address>LO BLANCO- C/ SAN JOSE DEL ALAMO 3</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.0723756, -15.5133816</vCard:geo> 
+            <geo:lat>28.0723756</geo:lat> 
+            <geo:long>-15.5133816</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/PINERO_MAGDALENA_MA_JOSE">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>PIÑERO MAGDALENA, Mª JOSE</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 804317" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>VALLE GRAN REY</vCard:locality> 
+                <vCard:postal-code>38892</vCard:postal-code> 
+                <vCard:street-address>ARURE- CTRA. GRAL. DE ARURE S/N</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.1313915, -17.320823</vCard:geo> 
+            <geo:lat>28.1313915</geo:lat> 
+            <geo:long>-17.320823</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/botiquines/OJEDA_DEL_PINO_MA_ANGELES">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>OJEDA DEL PINO, Mª ANGELES</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="928 661480" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>VEGA DE SAN MATEO</vCard:locality> 
+                <vCard:postal-code>35320</vCard:postal-code> 
+                <vCard:street-address>UTIACA- C/ LOMO CARBONERO 18</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.02731, -15.54609</vCard:geo> 
+            <geo:lat>28.02731</geo:lat> 
+            <geo:long>-15.54609</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+</rdf:RDF>

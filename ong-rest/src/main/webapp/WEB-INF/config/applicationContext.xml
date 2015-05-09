@@ -10,5 +10,9 @@
 
 	<!-- scans for @Components, @Repositories, @Services, ... -->
 	<context:component-scan base-package="es.ull.taro" />
-	<bean id="centrosService" class="es.ull.taro.ong_core.services.CentrosServiceImpl" />
+	<bean id="centerService" class="es.ull.taro.ong_core.services.CenterServiceImpl" />
+	<bean id="pharmacyService" class="es.ull.taro.ong_core.services.PharmacyServiceImpl" />
+	<bean id="botiquinService" class="es.ull.taro.ong_core.services.BotiquinServiceImpl" />
+	<bean id="disabilityService" class="es.ull.taro.ong_core.services.DisabilityServiceImpl" />
+	<bean id="elderlyService" class="es.ull.taro.ong_core.services.ElderlyServiceImpl" />
 </beans>

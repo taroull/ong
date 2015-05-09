@@ -11,9 +11,10 @@ import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.Model;
 
-@Service(CentrosService.BEAN_ID)
-public class CentrosServiceImpl implements CentrosService {
+@Service(DisabilityService.BEAN_ID)
 
+public class DisabilityServiceImpl implements DisabilityService{
+	
 	public HashMap<String, String> find(String name) {
 
 		Model model = loadRDFFile();
@@ -51,6 +52,6 @@ public class CentrosServiceImpl implements CentrosService {
 	}
 
 	protected static Model loadRDFFile() {
-		return RDFDataMgr.loadModel("CENTROS.rdf");
+		return RDFDataMgr.loadModel("recursos_discapacidad.rdf");
 	}
 }

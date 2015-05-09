@@ -1,0 +1,2139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+          xmlns:foaf="http://xmlns.com/foaf/spec/"
+          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+          xmlns:org="http://www.w3.org/TR/vocab-org/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:vCard="http://www.w3.org/TR/vcard-rdf/">
+          
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_MAXIMILIANO_DIAZ_LOPEZ">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA MAXIMILIANO DIAZ LOPEZ</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 221 746" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 221 278</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38005</vCard:postal-code> 
+                <vCard:street-address>LA SALLE</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.462.916, -1.625.673</vCard:geo> 
+            <geo:lat>28.462.916</geo:lat> 
+            <geo:long>-1.625.673</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_EL_TABLERO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA EL TABLERO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>SIMBA3276@HOTMAIL.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:SIMBA3276@HOTMAIL.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 617 203" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 617 203</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38100</vCard:postal-code> 
+                <vCard:street-address>TURILAGO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.422.526, -16.335.971</vCard:geo> 
+            <geo:lat>28.422.526</geo:lat> 
+            <geo:long>-16.335.971</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ESTANCIA_DIURNA_MUCHA_VIDA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE ESTANCIA DIURNA MUCHA VIDA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>CENTRODEDIA@MUCHAVIDA.ORG</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:CENTRODEDIA@MUCHAVIDA.ORG" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 244 574" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 244 572</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38002</vCard:postal-code> 
+                <vCard:street-address>MENDEZ NUÐEZ</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>2.847.001, -16.254.044</vCard:geo> 
+            <geo:lat>2.847.001</geo:lat> 
+            <geo:long>-16.254.044</geo:long> 
+            <foaf:homepage rdf:resource="WWW.MUCHAVIDA.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_FORMACION_SOLEDAD_GARCIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE FORMACION SOLEDAD GARCIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AFES@AFESCANARIAS.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AFES@AFESCANARIAS.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 630 856" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 260 797</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38007</vCard:postal-code> 
+                <vCard:street-address>SEVERO OCHOA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.464.743, -16.267.261</vCard:geo> 
+            <geo:lat>28.464.743</geo:lat> 
+            <geo:long>-16.267.261</geo:long> 
+            <foaf:homepage rdf:resource="WWW.AFESCANARIAS.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_CAMINO_DEL_HIERRO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL CAMINO DEL HIERRO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>CIA.CENTRO@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:CIA.CENTRO@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 653 884" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 656 035</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38009</vCard:postal-code> 
+                <vCard:street-address>CAMINO DEL HIERRO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.457.611, -16.280.345</vCard:geo> 
+            <geo:lat>28.457.611</geo:lat> 
+            <geo:long>-16.280.345</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_CAMINO_DEL_HIERRO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL CAMINO DEL HIERRO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>COSTURA@AGELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:COSTURA@AGELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 649 025" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38009</vCard:postal-code> 
+                <vCard:street-address>CAMINO DEL HIERRO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.457.765, -16.280.154</vCard:geo> 
+            <geo:lat>28.457.765</geo:lat> 
+            <geo:long>-16.280.154</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_LLANO_ALEGRE">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL LLANO ALEGRE</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>SERIGRAFIA@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:SERIGRAFIA@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 207 235" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38110</vCard:postal-code> 
+                <vCard:street-address>EL REMANSO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.447.318, -16.282.372</vCard:geo> 
+            <geo:lat>28.447.318</geo:lat> 
+            <geo:long>-16.282.372</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOSPITAL_FEBLES_CAMPOS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOSPITAL FEBLES CAMPOS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 843 300" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38006</vCard:postal-code> 
+                <vCard:street-address>DOMINGO JORGE MANRIQUE</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.469.876, -16.267.504</vCard:geo> 
+            <geo:lat>28.469.876</geo:lat> 
+            <geo:long>-16.267.504</geo:long> 
+            <foaf:homepage rdf:resource="WWW.IASS.ES" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_SANTA_CRUZ_DE_TENERIFE_RAMBLA_DE_PULIDO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>PISOS TUTELADOS SANTA CRUZ DE TENERIFE RAMBLA DE PULIDO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>TSOCIAL@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:TSOCIAL@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="660 040 509" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>660 046 864</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38004</vCard:postal-code> 
+                <vCard:street-address>RAMBLA PULIDO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.467.431, -16.257.787</vCard:geo> 
+            <geo:lat>28.467.431</geo:lat> 
+            <geo:long>-16.257.787</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_DAUTE_33">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>PISOS TUTELADOS DAUTE 33</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>TSOCIAL@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:TSOCIAL@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="660 040 349" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 205 215</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
+                <vCard:postal-code>38203</vCard:postal-code> 
+                <vCard:street-address>DAUTE</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.487.124, -16.322.945</vCard:geo> 
+            <geo:lat>28.487.124</geo:lat> 
+            <geo:long>-16.322.945</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/RESIDENCIA_HERMANO_PEDRO_FUNDACION_SAGRADA_FAMILIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>RESIDENCIA HERMANO PEDRO FUNDACION SAGRADA FAMILIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 644 051" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 641 103</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38010</vCard:postal-code> 
+                <vCard:street-address>GARA Y JONAY</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>2.844.966, -16.281.989</vCard:geo> 
+            <geo:lat>2.844.966</geo:lat> 
+            <geo:long>-16.281.989</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/RESIDENCIA_FUNDACION_SAGRADA_FAMILIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>RESIDENCIA FUNDACION SAGRADA FAMILIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 646 051" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 641 103</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38010</vCard:postal-code> 
+                <vCard:street-address>GARA Y JONAY</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.449.676, -1.628.195</vCard:geo> 
+            <geo:lat>28.449.676</geo:lat> 
+            <geo:long>-1.628.195</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/RESIDENCIA_FUNDACION_SAGRADA_FAMILIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>RESIDENCIA FUNDACION SAGRADA FAMILIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 646 051" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 647 103</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
+                <vCard:postal-code>38010</vCard:postal-code> 
+                <vCard:street-address>GARA Y JONAY</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.449.624, -16.282.031</vCard:geo> 
+            <geo:lat>28.449.624</geo:lat> 
+            <geo:long>-16.282.031</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_BENITO_MENNI_ACAMAN">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA BENITO MENNI ACAMAN</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>09ADMINISTRACION@HSCMADRID.ORG</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:09ADMINISTRACION@HSCMADRID.ORG" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 255 040" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 259 774</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
+                <vCard:postal-code>38296</vCard:postal-code> 
+                <vCard:street-address>SAN MIGUEL DE GENETO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.467.902, -16.316.954</vCard:geo> 
+            <geo:lat>28.467.902</geo:lat> 
+            <geo:long>-16.316.954</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_NUEVOS_CAMINANTES">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA NUEVOS CAMINANTES</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>NUEVOSCAMINATES@YAHOO.ES</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:NUEVOSCAMINATES@YAHOO.ES" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 158 615" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
+                <vCard:postal-code>38270</vCard:postal-code> 
+                <vCard:street-address>JUAN FERNANDEZ</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.515.251, -16.417.847</vCard:geo> 
+            <geo:lat>28.515.251</geo:lat> 
+            <geo:long>-16.417.847</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_LA_LAGUNA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL LA LAGUNA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AFES@AFESCANARIAS.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AFES@AFESCANARIAS.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 630 856" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 260 797</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
+                <vCard:postal-code>38201</vCard:postal-code> 
+                <vCard:street-address>NAVA Y GRIMON</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.490.721, -16.312.765</vCard:geo> 
+            <geo:lat>28.490.721</geo:lat> 
+            <geo:long>-16.312.765</geo:long> 
+            <foaf:homepage rdf:resource="WWW.AFESCANARIAS.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_LOS_ANDENES_-_CENTRO_OCUPACIONAL_DISENO_INFORMATICO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL LOS ANDENES - CENTRO OCUPACIONAL DISEÑO INFORMATICO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>ANDENES@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:ANDENES@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 537 807" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
+                <vCard:postal-code>38108</vCard:postal-code> 
+                <vCard:street-address>LOS ANDENES</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.447.269, -16.302.092</vCard:geo> 
+            <geo:lat>28.447.269</geo:lat> 
+            <geo:long>-16.302.092</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_BARRIO_NUEVO_-_EBANISTERIA_Y_REPARACION_DE_MUEBLES">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL BARRIO NUEVO - EBANISTERIA Y REPARACION DE MUEBLES</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AFES@AFESCANARIAS.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AFES@AFESCANARIAS.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 630 856" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 260 797</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
+                <vCard:postal-code>38205</vCard:postal-code> 
+                <vCard:street-address>EL PUENTE</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.479.414, -16.310.976</vCard:geo> 
+            <geo:lat>28.479.414</geo:lat> 
+            <geo:long>-16.310.976</geo:long> 
+            <foaf:homepage rdf:resource="WWW.AFESCANARIAS.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_BENITO_MENNI_ACAMAN">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL BENITO MENNI ACAMAN</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>09ADMINISTRACION@HSCMADRID.ORG</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:09ADMINISTRACION@HSCMADRID.ORG" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 255 040" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 259 774</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
+                <vCard:postal-code>38296</vCard:postal-code> 
+                <vCard:street-address>SAN MIGUEL DE GENETO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.467.905, -16.316.954</vCard:geo> 
+            <geo:lat>28.467.905</geo:lat> 
+            <geo:long>-16.316.954</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_VALLE_COLINO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL VALLE COLINO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>TSACRAMENTO@IASS.ES</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:TSACRAMENTO@IASS.ES" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 647 908" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 660 793</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
+                <vCard:postal-code>38205</vCard:postal-code> 
+                <vCard:street-address>VALENCIA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.476.064, -1.629.961</vCard:geo> 
+            <geo:lat>28.476.064</geo:lat> 
+            <geo:long>-1.629.961</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_SAN_JOSE">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOGAR SAN JOSE</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 660 697" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
+                <vCard:postal-code>38320</vCard:postal-code> 
+                <vCard:street-address>LAS PALMERAS</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>284.742, -16.298.935</vCard:geo> 
+            <geo:lat>284.742</geo:lat> 
+            <geo:long>-16.298.935</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LOS_OLIVOS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL LOS OLIVOS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>ARTEMISCG@ADEJE.ES</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:ARTEMISCG@ADEJE.ES" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 711 820" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 781 668</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ADEJE</vCard:locality> 
+                <vCard:postal-code>38670</vCard:postal-code> 
+                <vCard:street-address>BARRANCO DEL INGLES</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.123.921, -16.733.937</vCard:geo> 
+            <geo:lat>28.123.921</geo:lat> 
+            <geo:long>-16.733.937</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACIËN_PSICOSOCIAL_LOS_OLIVOS_-_CENTRO_OCUPACIONAL_MANTENIMIENTO_DE_EDIFICIOS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACIËN PSICOSOCIAL LOS OLIVOS - CENTRO OCUPACIONAL MANTENIMIENTO DE EDIFICIOS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>OLIVOS@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:OLIVOS@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 780 293" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 781 668</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ADEJE</vCard:locality> 
+                <vCard:postal-code>38670</vCard:postal-code> 
+                <vCard:street-address>BARRANCO DEL INGLES</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.123.887, -16.733.901</vCard:geo> 
+            <geo:lat>28.123.887</geo:lat> 
+            <geo:long>-16.733.901</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_LOS_OLIVOS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA LOS OLIVOS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>ARTEMISCG@ADEJE.ES</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:ARTEMISCG@ADEJE.ES" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 711 820" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 781 668</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ADEJE</vCard:locality> 
+                <vCard:postal-code>38670</vCard:postal-code> 
+                <vCard:street-address>BARRANCO DEL INGLES</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.123.903, -16.733.912</vCard:geo> 
+            <geo:lat>28.123.903</geo:lat> 
+            <geo:long>-16.733.912</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_HUERTO_EL_VISO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL HUERTO EL VISO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 768 512" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 768 275</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ARICO</vCard:locality> 
+                <vCard:postal-code>38580</vCard:postal-code> 
+                <vCard:street-address>EL CARMEN</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.163.722, -16.433.906</vCard:geo> 
+            <geo:lat>28.163.722</geo:lat> 
+            <geo:long>-16.433.906</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_OROBAL">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL OROBAL</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>DIRECCION@OROBAL.ORG</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:DIRECCION@OROBAL.ORG" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 796 514" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 788 060</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ARONA</vCard:locality> 
+                <vCard:postal-code>38650</vCard:postal-code> 
+                <vCard:street-address>LA HABANA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.054.688, -16.724.447</vCard:geo> 
+            <geo:lat>28.054.688</geo:lat> 
+            <geo:long>-16.724.447</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_LAS_GALLETAS_ARONA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>PISOS TUTELADOS LAS GALLETAS ARONA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>TSOCIAL@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:TSOCIAL@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="660 042 551" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>660 046 864</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ARONA</vCard:locality> 
+                <vCard:postal-code>38631</vCard:postal-code> 
+                <vCard:street-address>MARIA GONZALEZ LOPEZ</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.008.508, -16.657.364</vCard:geo> 
+            <geo:lat>28.008.508</geo:lat> 
+            <geo:long>-16.657.364</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/TALLER_ROSAS_DEL_GUANCHE">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>TALLER ROSAS DEL GUANCHE</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 721 030" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ARONA</vCard:locality> 
+                <vCard:postal-code>38460</vCard:postal-code> 
+                <vCard:street-address>EL VIVERO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.079.356, -16.665.654</vCard:geo> 
+            <geo:lat>28.079.356</geo:lat> 
+            <geo:long>-16.665.654</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_COMARCAL_ISLA_BAJA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL COMARCAL ISLA BAJA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>ISLABAJA@TERRA.ES</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:ISLABAJA@TERRA.ES" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 127 178" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 127 234</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>BUENAVISTA DEL NORTE</vCard:locality> 
+                <vCard:postal-code>38480</vCard:postal-code> 
+                <vCard:street-address>ICOD - BUENAVISTA DEL NORTE</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.369.699, -16.845.731</vCard:geo> 
+            <geo:lat>28.369.699</geo:lat> 
+            <geo:long>-16.845.731</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_COMARCAL_ISLA_BAJA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA COMARCAL ISLA BAJA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>ISLABAJA@TERRA.ES</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:ISLABAJA@TERRA.ES" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 127 178" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 127 234</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>BUENAVISTA DEL NORTE</vCard:locality> 
+                <vCard:postal-code>38480</vCard:postal-code> 
+                <vCard:street-address>ICOD - BUENAVISTA DEL NORTE</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.369.726, -16.845.749</vCard:geo> 
+            <geo:lat>28.369.726</geo:lat> 
+            <geo:long>-16.845.749</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_ARCO_IRIS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL ARCO IRIS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>CENTROARCOIRIS@MPDLC.ORG</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:CENTROARCOIRIS@MPDLC.ORG" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 500 839" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 032 932</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>CANDELARIA</vCard:locality> 
+                <vCard:postal-code>38530</vCard:postal-code> 
+                <vCard:street-address>MARITIMA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.365.304, -16.364.659</vCard:geo> 
+            <geo:lat>28.365.304</geo:lat> 
+            <geo:long>-16.364.659</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_ARCO_IRIS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA ARCO IRIS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>CENTROARCOIRIS@MPDLC.ORG</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:CENTROARCOIRIS@MPDLC.ORG" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 500 839" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 032 932</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>CANDELARIA</vCard:locality> 
+                <vCard:postal-code>38530</vCard:postal-code> 
+                <vCard:street-address>MARITIMA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.365.295, -16.364.752</vCard:geo> 
+            <geo:lat>28.365.295</geo:lat> 
+            <geo:long>-16.364.752</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ATENCION_A_MINUSVALIDOS_FISICOS_EL_SAUZAL">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE ATENCION A MINUSVALIDOS FISICOS EL SAUZAL</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 573 292" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 573 919</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAUZAL. EL</vCard:locality> 
+                <vCard:postal-code>38360</vCard:postal-code> 
+                <vCard:street-address>INMACULADA CONCEPCION</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.479.755, -16.435.983</vCard:geo> 
+            <geo:lat>28.479.755</geo:lat> 
+            <geo:long>-16.435.983</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ATENCION_A_MINUSVALIDOS_FISICOS_EL_SAUZAL">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE ATENCION A MINUSVALIDOS FISICOS EL SAUZAL</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 573 292" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 573 919</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAUZAL. EL</vCard:locality> 
+                <vCard:postal-code>38360</vCard:postal-code> 
+                <vCard:street-address>INMACULADA CONCEPCION</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.479.769, -16.435.986</vCard:geo> 
+            <geo:lat>28.479.769</geo:lat> 
+            <geo:long>-16.435.986</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_ATENCION_A_LA_DIVERSIDAD">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA ATENCION A LA DIVERSIDAD</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 390 620" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GRANADILLA DE ABONA</vCard:locality> 
+                <vCard:postal-code>38611</vCard:postal-code> 
+                <vCard:street-address>ISLA DE FUERTEVENTURA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.075.908, -16.554.768</vCard:geo> 
+            <geo:lat>28.075.908</geo:lat> 
+            <geo:long>-16.554.768</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_MARIA_DE_LAS_CASAS_-_CENTRO_OCUPACIONAL_CERAMICA_TRADICIONAL_CANARIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL MARIA DE LAS CASAS - CENTRO OCUPACIONAL CERAMICA TRADICIONAL CANARIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>CERAMICA@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:CERAMICA@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 774 252" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GRANADILLA DE ABONA</vCard:locality> 
+                <vCard:postal-code>38600</vCard:postal-code> 
+                <vCard:street-address>MARIA DE LAS CASAS</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.122.349, -16.578.637</vCard:geo> 
+            <geo:lat>28.122.349</geo:lat> 
+            <geo:long>-16.578.637</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_SAN_ISIDRO_PAISAJE_LUNAR">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>PISOS TUTELADOS SAN ISIDRO PAISAJE LUNAR</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>TSOCIAL@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:TSOCIAL@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="609 574 486" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>660 046 864</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GRANADILLA DE ABONA</vCard:locality> 
+                <vCard:postal-code>38611</vCard:postal-code> 
+                <vCard:street-address>PAISAJE LUNAR</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.071.132, -16.557.172</vCard:geo> 
+            <geo:lat>28.071.132</geo:lat> 
+            <geo:long>-16.557.172</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_SAN_ISIDRO_URBANIZACION_INVERNADEROS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>PISOS TUTELADOS SAN ISIDRO URBANIZACION INVERNADEROS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>TSOCIAL@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:TSOCIAL@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="660 041 088" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>660 046 864</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GRANADILLA DE ABONA</vCard:locality> 
+                <vCard:postal-code>38611</vCard:postal-code> 
+                <vCard:street-address>ISLA DE LA GRACIOSA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.074.543, -16.554.165</vCard:geo> 
+            <geo:lat>28.074.543</geo:lat> 
+            <geo:long>-16.554.165</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_PLAYA_SAN_JUAN">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA PLAYA SAN JUAN</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 865 704" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 865 704</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GUIA DE ISORA</vCard:locality> 
+                <vCard:postal-code>38687</vCard:postal-code> 
+                <vCard:street-address>REPUBLICA DE COLOMBIA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.182.675, -16.817.408</vCard:geo> 
+            <geo:lat>28.182.675</geo:lat> 
+            <geo:long>-16.817.408</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_-_CENTRO_DE_DIA_GUIA_DE_ISORA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL - CENTRO DE DIA GUIA DE ISORA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>DIA.SUR@ATELSAM.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:DIA.SUR@ATELSAM.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 852 178" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 852 178</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GUIA DE ISORA</vCard:locality> 
+                <vCard:postal-code>38680</vCard:postal-code> 
+                <vCard:street-address>ISORA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.208.739, -16.779.848</vCard:geo> 
+            <geo:lat>28.208.739</geo:lat> 
+            <geo:long>-16.779.848</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_ISORA_-_CENTRO_OCUPACIONAL_AGROJARDINERIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL ISORA - CENTRO OCUPACIONAL AGROJARDINERIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="661 294 539" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>638 383 571</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GUIA DE ISORA</vCard:locality> 
+                <vCard:postal-code>38680</vCard:postal-code> 
+                <vCard:street-address>LAS BRITAS</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.209.071, -16.777.491</vCard:geo> 
+            <geo:lat>28.209.071</geo:lat> 
+            <geo:long>-16.777.491</geo:long> 
+            <foaf:homepage rdf:resource="WWW.ATELSAM.NET" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_PLAYA_DE_SAN_JUAN">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL PLAYA DE SAN JUAN</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 865 704" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 865 704</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GUIA DE ISORA</vCard:locality> 
+                <vCard:postal-code>38687</vCard:postal-code> 
+                <vCard:street-address>REPUBLICA DE COLOMBIA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.182.688, -16.817.428</vCard:geo> 
+            <geo:lat>28.182.688</geo:lat> 
+            <geo:long>-16.817.428</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ATENCION_A_MINUSVALIDOS_PSIQUICOS_REINA_SOFIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE ATENCION A MINUSVALIDOS PSIQUICOS REINA SOFIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 511 750" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 524 108</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GÜIMAR</vCard:locality> 
+                <vCard:postal-code>38500</vCard:postal-code> 
+                <vCard:street-address>GUIMAR - ARAFO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.330.658, -16.413.574</vCard:geo> 
+            <geo:lat>28.330.658</geo:lat> 
+            <geo:long>-16.413.574</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ATENCION_A_MINUSVALIDOS_PSIQUICOS_REINA_SOFIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE ATENCION A MINUSVALIDOS PSIQUICOS REINA SOFIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 511 750" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 524 108</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GÜIMAR</vCard:locality> 
+                <vCard:postal-code>38500</vCard:postal-code> 
+                <vCard:street-address>GUIMAR - ARAFO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.330.623, -1.641.354</vCard:geo> 
+            <geo:lat>28.330.623</geo:lat> 
+            <geo:long>-1.641.354</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_ICOD_DE_LOS_VINOS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL ICOD DE LOS VINOS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AFES@AFESCANARIAS.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AFES@AFESCANARIAS.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 630 856" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 260 797</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ICOD DE LOS VINOS</vCard:locality> 
+                <vCard:postal-code>38430</vCard:postal-code> 
+                <vCard:street-address>INFANTA ISABEL</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.367.745, -16.716.976</vCard:geo> 
+            <geo:lat>28.367.745</geo:lat> 
+            <geo:long>-16.716.976</geo:long> 
+            <foaf:homepage rdf:resource="WWW.AFESCANARIAS.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_JARAMAGO_RECICLAJE_CREATIVO_AGROJARDINERIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL JARAMAGO RECICLAJE CREATIVO AGROJARDINERIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AFES@AFESCANARIAS.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AFES@AFESCANARIAS.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 630 856" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 260 797</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>ICOD DE LOS VINOS</vCard:locality> 
+                <vCard:postal-code>38430</vCard:postal-code> 
+                <vCard:street-address>PRINCIPE DE ESPAÐA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>2.837.343, -16.709.753</vCard:geo> 
+            <geo:lat>2.837.343</geo:lat> 
+            <geo:long>-16.709.753</geo:long> 
+            <foaf:homepage rdf:resource="WWW.AFESCANARIAS.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LA_GUANCHA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL LA GUANCHA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 130 084" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 828 469</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GUANCHA. LA</vCard:locality> 
+                <vCard:postal-code>38440</vCard:postal-code> 
+                <vCard:street-address>SAN ANTONIO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.377.991, -16.653.699</vCard:geo> 
+            <geo:lat>28.377.991</geo:lat> 
+            <geo:long>-16.653.699</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_LA_GUANCHA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA LA GUANCHA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 130 084" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 828 469</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>GUANCHA. LA</vCard:locality> 
+                <vCard:postal-code>38440</vCard:postal-code> 
+                <vCard:street-address>SAN ANTONIO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.378.028, -16.653.692</vCard:geo> 
+            <geo:lat>28.378.028</geo:lat> 
+            <geo:long>-16.653.692</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_EL_CREVO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION EL CREVO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>CREVO@TELEFONICA.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:CREVO@TELEFONICA.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 322 500" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 326 760</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>OROTAVA. LA</vCard:locality> 
+                <vCard:postal-code>38300</vCard:postal-code> 
+                <vCard:street-address>RISCO CAIDO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.397.176, -1.651.507</vCard:geo> 
+            <geo:lat>28.397.176</geo:lat> 
+            <geo:long>-1.651.507</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_EL_VALLE_ACTIVIDADES_MANUALES_CREATIVAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL EL VALLE ACTIVIDADES MANUALES CREATIVAS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AFES@AFESCANARIAS.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AFES@AFESCANARIAS.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 630 856" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 260 797</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>OROTAVA. LA</vCard:locality> 
+                <vCard:postal-code>38300</vCard:postal-code> 
+                <vCard:street-address>SIXTO PERAZA GONZALEZ</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.392.532, -1.652.743</vCard:geo> 
+            <geo:lat>28.392.532</geo:lat> 
+            <geo:long>-1.652.743</geo:long> 
+            <foaf:homepage rdf:resource="WWW.AFESCANARIAS.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/ASOCIACION_QUIERO_SER_COMO_TU_AYUDAME">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>ASOCIACION QUIERO SER COMO TU AYUDAME</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>QUIERO_SER@HOTMAIL.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:QUIERO_SER@HOTMAIL.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 564 049" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 564 049</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>TACORONTE</vCard:locality> 
+                <vCard:postal-code>38350</vCard:postal-code> 
+                <vCard:street-address>EL ADELANTADO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.489.442, -16.400.985</vCard:geo> 
+            <geo:lat>28.489.442</geo:lat> 
+            <geo:long>-16.400.985</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LA_ALHONDIGA_PERMACULTURA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL LA ALHONDIGA PERMACULTURA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AFES@AFESCANARIAS.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AFES@AFESCANARIAS.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 630 856" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 260797</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>TACORONTE</vCard:locality> 
+                <vCard:postal-code>38350</vCard:postal-code> 
+                <vCard:street-address>MIRANDA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.503.497, -16.403.555</vCard:geo> 
+            <geo:lat>28.503.497</geo:lat> 
+            <geo:long>-16.403.555</geo:long> 
+            <foaf:homepage rdf:resource="WWW.AFESCANARIAS.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LOS_ANDES_AGROJARDINERIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL LOS ANDES AGROJARDINERIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AFES@AFESCANARIAS.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AFES@AFESCANARIAS.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 630 856" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 260 797</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>TACORONTE</vCard:locality> 
+                <vCard:postal-code>38350</vCard:postal-code> 
+                <vCard:street-address>REAL</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.471.066, -16.379.312</vCard:geo> 
+            <geo:lat>28.471.066</geo:lat> 
+            <geo:long>-16.379.312</geo:long> 
+            <foaf:homepage rdf:resource="WWW.AFESCANARIAS.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_VALLE_DE_LA_OROTAVA_-_LA_LUZ_ASPRONTE">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL VALLE DE LA OROTAVA - LA LUZ ASPRONTE</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>ASPRONTEOROTAVA@CANARIAS.ORG</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:ASPRONTEOROTAVA@CANARIAS.ORG" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 330 535" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 336 881</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>OROTAVA. LA</vCard:locality> 
+                <vCard:postal-code>38300</vCard:postal-code> 
+                <vCard:street-address>EUROPA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.403.744, -16.511.508</vCard:geo> 
+            <geo:lat>28.403.744</geo:lat> 
+            <geo:long>-16.511.508</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HUERTO_OCUPACIONAL_CAMINO_DE_CHASNA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HUERTO OCUPACIONAL CAMINO DE CHASNA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 336 122" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>OROTAVA. LA</vCard:locality> 
+                <vCard:postal-code>38300</vCard:postal-code> 
+                <vCard:street-address>LA CAÐADA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.378.919, -16.509.357</vCard:geo> 
+            <geo:lat>28.378.919</geo:lat> 
+            <geo:long>-16.509.357</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HUERTO_OCUPACIONAL_CAMINO_DE_CHASNA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HUERTO OCUPACIONAL CAMINO DE CHASNA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 336 122" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>OROTAVA. LA</vCard:locality> 
+                <vCard:postal-code>38300</vCard:postal-code> 
+                <vCard:street-address>LA CAÐADA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>2.837.895, -1.650.934</vCard:geo> 
+            <geo:lat>2.837.895</geo:lat> 
+            <geo:long>-1.650.934</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_SANTOS_ANGELES">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOGAR SANTOS ANGELES</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 336 329" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 336 329</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>OROTAVA. LA</vCard:locality> 
+                <vCard:postal-code>38300</vCard:postal-code> 
+                <vCard:street-address>COMUNIDAD IBEROAMERICANA</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.392.989, -16.524.582</vCard:geo> 
+            <geo:lat>28.392.989</geo:lat> 
+            <geo:long>-16.524.582</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_MINUSVALIDO_PROBOSCO">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOGAR MINUSVALIDO PROBOSCO</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>PROBOSCO2@TELEFONICA.NET</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:PROBOSCO2@TELEFONICA.NET" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 320 708" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 320 708</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>OROTAVA. LA</vCard:locality> 
+                <vCard:postal-code>38300</vCard:postal-code> 
+                <vCard:street-address>TOMAS ZEROLO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.391.746, -16.524.547</vCard:geo> 
+            <geo:lat>28.391.746</geo:lat> 
+            <geo:long>-16.524.547</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LA_VICTORIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL LA VICTORIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 582 002" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 580 176</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>VICTORIA DE ACENTEJO. LA</vCard:locality> 
+                <vCard:postal-code>38380</vCard:postal-code> 
+                <vCard:street-address>PEREZ DIAZ</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.435.198, -16.468.092</vCard:geo> 
+            <geo:lat>28.435.198</geo:lat> 
+            <geo:long>-16.468.092</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_LA_VICTORIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA LA VICTORIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 582 002" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 580 176</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>VICTORIA DE ACENTEJO. LA</vCard:locality> 
+                <vCard:postal-code /> 
+                <vCard:street-address>PEREZ DIAZ</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.435.205, -16.468.076</vCard:geo> 
+            <geo:lat>28.435.205</geo:lat> 
+            <geo:long>-16.468.076</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_DE_LOS_REALEJOS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL DE LOS REALEJOS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="618 623 090" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 346 924</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>REALEJOS. LOS</vCard:locality> 
+                <vCard:postal-code>38410</vCard:postal-code> 
+                <vCard:street-address>LOS CUARTOS</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.388.538, -16.579.481</vCard:geo> 
+            <geo:lat>28.388.538</geo:lat> 
+            <geo:long>-16.579.481</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_PUERTO_DE_LA_CRUZ">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL PUERTO DE LA CRUZ</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 378 400" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax /> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>PUERTO DE LA CRUZ</vCard:locality> 
+                <vCard:postal-code>38400</vCard:postal-code> 
+                <vCard:street-address>MAZAROCO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.415.814, -16.553.996</vCard:geo> 
+            <geo:lat>28.415.814</geo:lat> 
+            <geo:long>-16.553.996</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_PUERTO_DE_LA_CRUZ">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL PUERTO DE LA CRUZ</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AFES@AFESCANARIAS.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AFES@AFESCANARIAS.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 630 856" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 260 797</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>PUERTO DE LA CRUZ</vCard:locality> 
+                <vCard:postal-code>38400</vCard:postal-code> 
+                <vCard:street-address>ARCHIPIELAGO CANARIO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.409.865, -1.656.583</vCard:geo> 
+            <geo:lat>28.409.865</geo:lat> 
+            <geo:long>-1.656.583</geo:long> 
+            <foaf:homepage rdf:resource="WWW.AFESCANARIAS.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_DE_SAN_JUAN_DE_LA_RAMBLA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL DE SAN JUAN DE LA RAMBLA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>CENTROOCUPACIONALSJR@HOTMAIL.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:CENTROOCUPACIONALSJR@HOTMAIL.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 350 247" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 350 247</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN JUAN DE LA RAMBLA</vCard:locality> 
+                <vCard:postal-code>38420</vCard:postal-code> 
+                <vCard:street-address>EL LOMO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>283.776, -16.648.241</vCard:geo> 
+            <geo:lat>283.776</geo:lat> 
+            <geo:long>-16.648.241</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_DE_SAN_JUAN_DE_LA_RAMBLA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA DE SAN JUAN DE LA RAMBLA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>CENTROOCUPACIONALSJR@HOTMAIL.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:CENTROOCUPACIONALSJR@HOTMAIL.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 350 247" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 350 247</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN JUAN DE LA RAMBLA</vCard:locality> 
+                <vCard:postal-code>38420</vCard:postal-code> 
+                <vCard:street-address>EL LOMO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.377.624, -16.648.193</vCard:geo> 
+            <geo:lat>28.377.624</geo:lat> 
+            <geo:long>-16.648.193</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_SAN_MIGUEL_AMISUR">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO OCUPACIONAL SAN MIGUEL AMISUR</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AMISUR@MSN.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AMISUR@MSN.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 700 114" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 700 632</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN MIGUEL DE ABONA</vCard:locality> 
+                <vCard:postal-code>38620</vCard:postal-code> 
+                <vCard:street-address>A LOS ABRIGOS</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.066.609, -16.623.051</vCard:geo> 
+            <geo:lat>28.066.609</geo:lat> 
+            <geo:long>-16.623.051</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_SAN_MIGUEL_AMISUR">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO DE DIA SAN MIGUEL AMISUR</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>AMISUR@MSN.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:AMISUR@MSN.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 700 114" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 700 632</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN MIGUEL DE ABONA</vCard:locality> 
+                <vCard:postal-code>38620</vCard:postal-code> 
+                <vCard:street-address>A LOS ABRIGOS</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.066.572, -1.662.303</vCard:geo> 
+            <geo:lat>28.066.572</geo:lat> 
+            <geo:long>-1.662.303</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_SAN_MIGUEL_LAS_CHAFIRAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOGAR SAN MIGUEL LAS CHAFIRAS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>SANMIGUELDEABONA@HOTMAIL.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:SANMIGUELDEABONA@HOTMAIL.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 735 152" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 735 402</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN MIGUEL DE ABONA</vCard:locality> 
+                <vCard:postal-code>38639</vCard:postal-code> 
+                <vCard:street-address>MODESTO HERNANDEZ</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.048.766, -16.618.167</vCard:geo> 
+            <geo:lat>28.048.766</geo:lat> 
+            <geo:long>-16.618.167</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_SAN_MIGUEL_LAS_CHAFIRAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOGAR SAN MIGUEL LAS CHAFIRAS</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>SANMIGUELDEABONA@HOTMAIL.COM</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:SANMIGUELDEABONA@HOTMAIL.COM" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 735 152" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 735 402</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SAN MIGUEL DE ABONA</vCard:locality> 
+                <vCard:postal-code>38639</vCard:postal-code> 
+                <vCard:street-address>MODESTO HERNANDEZ</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.048.753, -16.618.263</vCard:geo> 
+            <geo:lat>28.048.753</geo:lat> 
+            <geo:long>-16.618.263</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_HELLEN_KELLER">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>CENTRO HELLEN KELLER</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email>FUNCASOR.ORG.FUNCASOR.ORG</vCard:Email> 
+            <vCard:hasEmail rdf:resource="mailto:FUNCASOR.ORG.FUNCASOR.ORG" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 544 052" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 546 976</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>TEGUESTE</vCard:locality> 
+                <vCard:postal-code>38280</vCard:postal-code> 
+                <vCard:street-address>LA LAGUNA - PUNTA HIDALGO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.513.716, -16.307.736</vCard:geo> 
+            <geo:lat>28.513.716</geo:lat> 
+            <geo:long>-16.307.736</geo:long> 
+            <foaf:homepage rdf:resource="WWW.FUNCASOR@FUNCASOR.ORG" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_NUESTRA_SENORA_DE_LA_CANDELARIA">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOGAR NUESTRA SEÑORA DE LA CANDELARIA</vCard:Name> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:Email /> 
+            <vCard:hasEmail rdf:resource="mailto:" /> 
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 863 490" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:Fax>922 864 083</vCard:Fax> 
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>SANTIAGO DEL TEIDE</vCard:locality> 
+                <vCard:postal-code>38690</vCard:postal-code> 
+                <vCard:street-address>PARROCO ANTONIO</vCard:street-address> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.292.782, -16.814.075</vCard:geo> 
+            <geo:lat>28.292.782</geo:lat> 
+            <geo:long>-16.814.075</geo:long> 
+            <foaf:homepage rdf:resource="" /> 
+          </vCard:Organization>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+</rdf:RDF>
