@@ -15,4 +15,5 @@
 	<bean id="botiquinService" class="es.ull.taro.ong_core.services.BotiquinServiceImpl" />
 	<bean id="disabilityService" class="es.ull.taro.ong_core.services.DisabilityServiceImpl" />
 	<bean id="elderlyService" class="es.ull.taro.ong_core.services.ElderlyServiceImpl" />
+	<bean id="dBpediaService" class="es.ull.taro.ong_core.services.DBpediaServiceImpl" />
 </beans>

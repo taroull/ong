@@ -1,6 +1,7 @@
 package es.ull.taro.ong_rest;
 
 import java.util.HashMap;
+import java.util.Map;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Component;
 
 import es.ull.taro.ong_core.services.BotiquinService;
 import es.ull.taro.ong_core.services.CenterService;
+import es.ull.taro.ong_core.services.DBpediaService;
 import es.ull.taro.ong_core.services.DisabilityService;
 import es.ull.taro.ong_core.services.ElderlyService;
 import es.ull.taro.ong_core.services.PharmacyService;
@@ -35,6 +37,16 @@ public class OngAPI {
 	
 	@Autowired
 	protected ElderlyService elderlyService;
+	
+	@Autowired
+	protected DBpediaService dbpediaService;
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("info")
+	public Map<String, String> retrieveCenterInfo(@QueryParam(value = "uri") String uri) throws Exception {
+		return dbpediaService.retrieveCenterInfo(uri);
+	}
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
@@ -70,4 +82,15 @@ public class OngAPI {
 	public HashMap<String, String> findElderlyByName(@QueryParam(value = "name") String name) throws Exception {
 		return elderlyService.find(name);
 	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("pharmacyuri")
+	public Map<String, String> findPharmacyByUri(@QueryParam(value = "uri") String uri) throws Exception {
+		return pharmacyService.describeUri(uri);
+	}
+	
+	
+	
+	
 }
