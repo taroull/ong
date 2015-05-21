@@ -19,7 +19,7 @@ public class DBpediaServiceImpl implements DBpediaService{
 		dbpediaQuery.append("SELECT ?beds ");
 		dbpediaQuery.append("WHERE {");
 		dbpediaQuery.append("  <").append(uri).append("> dbpedia-owl:bedCount ?beds");
-		dbpediaQuery.append("}");
+		dbpediaQuery.append("}"); 
 		
 		QueryExecution qe2 = QueryExecutionFactory.sparqlService("http://es.dbpedia.org/sparql", dbpediaQuery.toString());
 		HashMap<String, String> results = new HashMap<String, String>();

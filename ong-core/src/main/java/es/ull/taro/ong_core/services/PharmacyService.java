@@ -9,5 +9,5 @@ public interface PharmacyService {
 
 	public HashMap<String, String> find(String name);
 	
-	public Map<String, String> describeUri(String uri);
+	public Map<String, String> describeUri(String uri); 
 }

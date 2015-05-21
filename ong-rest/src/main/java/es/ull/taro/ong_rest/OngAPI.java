@@ -47,7 +47,7 @@ public class OngAPI {
 	public Map<String, String> retrieveCenterInfo(@QueryParam(value = "uri") String uri) throws Exception {
 		return dbpediaService.retrieveCenterInfo(uri);
 	}
-	
+	 
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("center")

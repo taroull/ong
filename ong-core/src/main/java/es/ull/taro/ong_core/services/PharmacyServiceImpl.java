@@ -20,7 +20,7 @@ public class PharmacyServiceImpl implements PharmacyService{
 
 		Model model = loadRDFFile();
 
-		StringBuilder sparqlQuery = new StringBuilder();
+		StringBuilder sparqlQuery = new StringBuilder(); 
 
 		sparqlQuery.append("PREFIX org: <http://www.w3.org/TR/vocab-org/> ");
 		sparqlQuery.append("PREFIX vCard: <http://www.w3.org/TR/vcard-rdf/> ");
