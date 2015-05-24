@@ -1,7 +1,6 @@
 package es.ull.taro.ong_core.services;
 
 import java.util.HashMap;
-import java.util.Map;
 
 import org.apache.jena.riot.RDFDataMgr;
 import org.springframework.stereotype.Service;
@@ -53,9 +52,8 @@ public class PharmacyServiceImpl implements PharmacyService{
 	}
 
 	
-	
 	@Override
-	public Map<String, String> describeUri(String uri) {
+	public HashMap<String, String> describeUri(String uri) {
 
 		Model model = loadRDFFile();
 
@@ -74,9 +72,14 @@ public class PharmacyServiceImpl implements PharmacyService{
 		sparqlQuery2.append("PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> ");
 		sparqlQuery2.append("PREFIX org: <http://www.w3.org/TR/vocab-org/> ");
 		sparqlQuery2.append("PREFIX vCard: <http://www.w3.org/TR/vcard-rdf/> ");
-		sparqlQuery2.append("SELECT ?Name");
+		sparqlQuery2.append("SELECT ?Name ?PostCode ?Street ?Locality ?Telephone");
 		sparqlQuery2.append("{ ");
-		sparqlQuery2.append("  ?resource vCard:Name ?Name. ");
+		sparqlQuery2.append("  ?resource vCard:Name ?Name . ");
+		sparqlQuery2.append("  ?A1_Location vCard:postal-code ?PostCode . ");
+		sparqlQuery2.append("  ?A2_Location vCard:street-address ?Street . ");
+		sparqlQuery2.append("  ?A3_Location vCard:locality ?Locality . ");
+		sparqlQuery2.append("  ?B1_Phone vCard:hasTelephone ?B2_Phone . ");
+		sparqlQuery2.append("  ?B2_Phone vCard:hasValue ?Telephone . ");
 		sparqlQuery2.append("}");
 
 		QueryExecution qe2 = QueryExecutionFactory.create(sparqlQuery2.toString(), resultModel);
@@ -85,7 +88,11 @@ public class PharmacyServiceImpl implements PharmacyService{
 			com.hp.hpl.jena.query.ResultSet ns = qe2.execSelect();
 			while (ns.hasNext()) {
 				QuerySolution soln = ns.nextSolution();
-				results.put("Nombre", soln.getResource("?Name").toString());
+				results.put("Nombre", soln.getLiteral("?Name").toString());
+				results.put("Código Postal", soln.getLiteral("?PostCode").toString());
+				results.put("Domicilio", soln.getLiteral("?Street").toString());
+				results.put("Municipio", soln.getLiteral("?Locality").toString());
+				results.put("Teléfono", soln.getResource("?Telephone").toString());
 			}
 		} finally {
 			qe2.close();

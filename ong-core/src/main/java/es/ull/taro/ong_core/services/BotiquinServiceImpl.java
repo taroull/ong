@@ -47,6 +47,54 @@ public class BotiquinServiceImpl implements BotiquinService{
 
 		return uris;
 	}
+	
+	@Override
+	public HashMap<String, String> describeUri(String uri) {
+
+		Model model = loadRDFFile();
+
+		StringBuilder sparqlQuery = new StringBuilder();
+		sparqlQuery.append("DESCRIBE ").append("<").append(uri).append(">");
+
+		QueryExecution qe = QueryExecutionFactory.create(sparqlQuery.toString(), model);
+		Model resultModel;
+		try {
+			resultModel = qe.execDescribe();
+		} finally {
+			qe.close();
+		}
+		StringBuilder sparqlQuery2 = new StringBuilder();
+		sparqlQuery2.append("PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ");
+		sparqlQuery2.append("PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> ");
+		sparqlQuery2.append("PREFIX org: <http://www.w3.org/TR/vocab-org/> ");
+		sparqlQuery2.append("PREFIX vCard: <http://www.w3.org/TR/vcard-rdf/> ");
+		sparqlQuery2.append("SELECT ?Name ?PostCode ?Street ?Locality ?Telephone");
+		sparqlQuery2.append("{ ");
+		sparqlQuery2.append("  ?resource vCard:Name ?Name . ");
+		sparqlQuery2.append("  ?A1_Location vCard:postal-code ?PostCode . ");
+		sparqlQuery2.append("  ?A2_Location vCard:street-address ?Street . ");
+		sparqlQuery2.append("  ?A3_Location vCard:locality ?Locality . ");
+		sparqlQuery2.append("  ?B1_Phone vCard:hasTelephone ?B2_Phone . ");
+		sparqlQuery2.append("  ?B2_Phone vCard:hasValue ?Telephone . ");
+		sparqlQuery2.append("}");
+
+		QueryExecution qe2 = QueryExecutionFactory.create(sparqlQuery2.toString(), resultModel);
+		HashMap<String, String> results = new HashMap<String, String>();
+		try {
+			com.hp.hpl.jena.query.ResultSet ns = qe2.execSelect();
+			while (ns.hasNext()) {
+				QuerySolution soln = ns.nextSolution();
+				results.put("Nombre", soln.getLiteral("?Name").toString());
+				results.put("Código Postal", soln.getLiteral("?PostCode").toString());
+				results.put("Domicilio", soln.getLiteral("?Street").toString());
+				results.put("Municipio", soln.getLiteral("?Locality").toString());
+				results.put("Teléfono", soln.getResource("?Telephone").toString());
+			}
+		} finally {
+			qe2.close();
+		}
+		return results;
+	}
 
 	protected static Model loadRDFFile() {
 		return RDFDataMgr.loadModel("botiquines.rdf");

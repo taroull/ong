@@ -27,7 +27,7 @@ public class DBpediaServiceImpl implements DBpediaService{
 			com.hp.hpl.jena.query.ResultSet ns = qe2.execSelect();
 			while (ns.hasNext()) {
 				QuerySolution soln = ns.nextSolution();
-				results.put("Camas", soln.getResource("?beds").toString());
+				results.put("Camas", soln.getLiteral("?beds").toString());
 			}
 		} finally {
 			qe2.close();

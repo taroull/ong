@@ -8,5 +8,5 @@ public interface DisabilityService {
 
 	public HashMap<String, String> find(String name);
 
-
+	public HashMap<String, String> describeUri(String uri); 
 }

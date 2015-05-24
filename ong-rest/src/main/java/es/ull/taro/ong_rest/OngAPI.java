@@ -1,7 +1,6 @@
 package es.ull.taro.ong_rest;
 
 import java.util.HashMap;
-import java.util.Map;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -41,12 +40,7 @@ public class OngAPI {
 	@Autowired
 	protected DBpediaService dbpediaService;
 	
-	@GET
-	@Produces(MediaType.APPLICATION_JSON)
-	@Path("info")
-	public Map<String, String> retrieveCenterInfo(@QueryParam(value = "uri") String uri) throws Exception {
-		return dbpediaService.retrieveCenterInfo(uri);
-	}
+	/* Llamadas por NOMBRE */
 	 
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
@@ -83,14 +77,44 @@ public class OngAPI {
 		return elderlyService.find(name);
 	}
 	
+	/* Llamadas por URI */
+	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("pharmacyuri")
-	public Map<String, String> findPharmacyByUri(@QueryParam(value = "uri") String uri) throws Exception {
+	public HashMap<String, String> findPharmacyByUri(@QueryParam(value = "uri") String uri) throws Exception {
 		return pharmacyService.describeUri(uri);
 	}
 	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("botiquinuri")
+	public HashMap<String, String> findBotiquinByUri(@QueryParam(value = "uri") String uri) throws Exception {
+		return botiquinService.describeUri(uri);
+	}
 	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("disabilityuri")
+	public HashMap<String, String> findDisabilityByUri(@QueryParam(value = "uri") String uri) throws Exception {
+		return disabilityService.describeUri(uri);
+	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("elderlyuri")
+	public HashMap<String, String> findElderlyByUri(@QueryParam(value = "uri") String uri) throws Exception {
+		return elderlyService.describeUri(uri);
+	}
+	
+	/* DBpedia*/
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("info")
+	public HashMap<String, String> retrieveCenterInfo(@QueryParam(value = "uri") String uri) throws Exception {
+		return dbpediaService.retrieveCenterInfo(uri);
+	}
 	
 	
 }

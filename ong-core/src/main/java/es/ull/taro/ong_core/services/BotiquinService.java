@@ -8,4 +8,5 @@ public interface BotiquinService {
 
 	public HashMap<String, String> find(String name);
 
+	public HashMap<String, String> describeUri(String uri); 
 }
