@@ -1,13 +1,15 @@
 package es.ull.taro.ong_core.services;
 
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
+
+import es.ull.taro.ong_core.domain.GeoResource;
 
 public interface PharmacyService {
 	
 	public static final String BEAN_ID = "pharmacyService";
 
-	public HashMap<String, String> find(String name);
+	public ArrayList<GeoResource> find(String name);
 	
 	public HashMap<String, String> describeUri(String uri); 
 }

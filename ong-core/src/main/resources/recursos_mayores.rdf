@@ -298,8 +298,8 @@
               </vCard:Address>
             </vCard:hasAddress>
             <vCard:geo>28.417.374, -1.630.323</vCard:geo> 
-            <geo:lat>28.417.374</geo:lat> 
-            <geo:long>-1.630.323</geo:long> 
+            <geo:lat>28.417374</geo:lat> 
+            <geo:long>-16.30323</geo:long> 
             <foaf:homepage rdf:resource="WWW.ACORAN-TENERIFE.COM" /> 
           </vCard:Organization>
         </org:siteAddress>

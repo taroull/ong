@@ -1,11 +1,12 @@
 package es.ull.taro.ong_core.services;
 
-import java.util.HashMap;
+import java.util.ArrayList;
+import es.ull.taro.ong_core.domain.GeoResource;
 
 public interface CenterService {
 
 	public static final String BEAN_ID = "centerService";
 
-	public HashMap<String, String> find(String name);
+	public  ArrayList<GeoResource> find(String name);
 
 }
