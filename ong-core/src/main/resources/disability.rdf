@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-          xmlns:foaf="http://xmlns.com/foaf/spec/"
           xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
           xmlns:org="http://www.w3.org/TR/vocab-org/"
+          xmlns:foaf="http://xmlns.com/foaf/spec/"
           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
           xmlns:vCard="http://www.w3.org/TR/vcard-rdf/">
           
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_MAXIMILIANO_DIAZ_LOPEZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_MAXIMILIANO_DIAZ_LOPEZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA MAXIMILIANO DIAZ LOPEZ</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 221 746" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -30,13 +28,12 @@
             <vCard:geo>28.462.916, -1.625.673</vCard:geo> 
             <geo:lat>28.462.916</geo:lat> 
             <geo:long>-1.625.673</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_EL_TABLERO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_EL_TABLERO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA EL TABLERO</vCard:Name> 
@@ -60,13 +57,12 @@
             <vCard:geo>28.422.526, -16.335.971</vCard:geo> 
             <geo:lat>28.422.526</geo:lat> 
             <geo:long>-16.335.971</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ESTANCIA_DIURNA_MUCHA_VIDA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_ESTANCIA_DIURNA_MUCHA_VIDA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ESTANCIA DIURNA MUCHA VIDA</vCard:Name> 
@@ -96,7 +92,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_FORMACION_SOLEDAD_GARCIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_FORMACION_SOLEDAD_GARCIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE FORMACION SOLEDAD GARCIA</vCard:Name> 
@@ -126,7 +122,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_CAMINO_DEL_HIERRO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_CAMINO_DEL_HIERRO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL CAMINO DEL HIERRO</vCard:Name> 
@@ -156,7 +152,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_CAMINO_DEL_HIERRO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_CAMINO_DEL_HIERRO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL CAMINO DEL HIERRO</vCard:Name> 
@@ -169,7 +165,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
@@ -186,7 +181,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_LLANO_ALEGRE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_LLANO_ALEGRE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL LLANO ALEGRE</vCard:Name> 
@@ -199,7 +194,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
@@ -216,20 +210,17 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOSPITAL_FEBLES_CAMPOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/HOSPITAL_FEBLES_CAMPOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOSPITAL FEBLES CAMPOS</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 843 300" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
@@ -246,7 +237,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_SANTA_CRUZ_DE_TENERIFE_RAMBLA_DE_PULIDO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/PISOS_TUTELADOS_SANTA_CRUZ_DE_TENERIFE_RAMBLA_DE_PULIDO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>PISOS TUTELADOS SANTA CRUZ DE TENERIFE RAMBLA DE PULIDO</vCard:Name> 
@@ -276,7 +267,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_DAUTE_33">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/PISOS_TUTELADOS_DAUTE_33">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>PISOS TUTELADOS DAUTE 33</vCard:Name> 
@@ -306,14 +297,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/RESIDENCIA_HERMANO_PEDRO_FUNDACION_SAGRADA_FAMILIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/RESIDENCIA_HERMANO_PEDRO_FUNDACION_SAGRADA_FAMILIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA HERMANO PEDRO FUNDACION SAGRADA FAMILIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 644 051" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -330,20 +319,17 @@
             <vCard:geo>2.844.966, -16.281.989</vCard:geo> 
             <geo:lat>2.844.966</geo:lat> 
             <geo:long>-16.281.989</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/RESIDENCIA_FUNDACION_SAGRADA_FAMILIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/RESIDENCIA_FUNDACION_SAGRADA_FAMILIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA FUNDACION SAGRADA FAMILIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 646 051" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -360,20 +346,17 @@
             <vCard:geo>28.449.676, -1.628.195</vCard:geo> 
             <geo:lat>28.449.676</geo:lat> 
             <geo:long>-1.628.195</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/RESIDENCIA_FUNDACION_SAGRADA_FAMILIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/RESIDENCIA_FUNDACION_SAGRADA_FAMILIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA FUNDACION SAGRADA FAMILIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 646 051" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -390,13 +373,12 @@
             <vCard:geo>28.449.624, -16.282.031</vCard:geo> 
             <geo:lat>28.449.624</geo:lat> 
             <geo:long>-16.282.031</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_BENITO_MENNI_ACAMAN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_BENITO_MENNI_ACAMAN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA BENITO MENNI ACAMAN</vCard:Name> 
@@ -420,13 +402,12 @@
             <vCard:geo>28.467.902, -16.316.954</vCard:geo> 
             <geo:lat>28.467.902</geo:lat> 
             <geo:long>-16.316.954</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_NUEVOS_CAMINANTES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_NUEVOS_CAMINANTES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA NUEVOS CAMINANTES</vCard:Name> 
@@ -439,7 +420,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
@@ -450,13 +430,12 @@
             <vCard:geo>28.515.251, -16.417.847</vCard:geo> 
             <geo:lat>28.515.251</geo:lat> 
             <geo:long>-16.417.847</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_LA_LAGUNA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_LA_LAGUNA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL LA LAGUNA</vCard:Name> 
@@ -486,7 +465,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_LOS_ANDENES_-_CENTRO_OCUPACIONAL_DISENO_INFORMATICO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_LOS_ANDENES_-_CENTRO_OCUPACIONAL_DISENO_INFORMATICO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL LOS ANDENES - CENTRO OCUPACIONAL DISEÑO INFORMATICO</vCard:Name> 
@@ -499,7 +478,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
@@ -516,7 +494,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_BARRIO_NUEVO_-_EBANISTERIA_Y_REPARACION_DE_MUEBLES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_BARRIO_NUEVO_-_EBANISTERIA_Y_REPARACION_DE_MUEBLES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL BARRIO NUEVO - EBANISTERIA Y REPARACION DE MUEBLES</vCard:Name> 
@@ -546,7 +524,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_BENITO_MENNI_ACAMAN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_BENITO_MENNI_ACAMAN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL BENITO MENNI ACAMAN</vCard:Name> 
@@ -570,13 +548,12 @@
             <vCard:geo>28.467.905, -16.316.954</vCard:geo> 
             <geo:lat>28.467.905</geo:lat> 
             <geo:long>-16.316.954</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_VALLE_COLINO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_VALLE_COLINO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL VALLE COLINO</vCard:Name> 
@@ -600,26 +577,22 @@
             <vCard:geo>28.476.064, -1.629.961</vCard:geo> 
             <geo:lat>28.476.064</geo:lat> 
             <geo:long>-1.629.961</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_SAN_JOSE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/HOGAR_SAN_JOSE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOGAR SAN JOSE</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 660 697" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
@@ -630,13 +603,12 @@
             <vCard:geo>284.742, -16.298.935</vCard:geo> 
             <geo:lat>284.742</geo:lat> 
             <geo:long>-16.298.935</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LOS_OLIVOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_LOS_OLIVOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL LOS OLIVOS</vCard:Name> 
@@ -660,13 +632,12 @@
             <vCard:geo>28.123.921, -16.733.937</vCard:geo> 
             <geo:lat>28.123.921</geo:lat> 
             <geo:long>-16.733.937</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACIËN_PSICOSOCIAL_LOS_OLIVOS_-_CENTRO_OCUPACIONAL_MANTENIMIENTO_DE_EDIFICIOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACIËN_PSICOSOCIAL_LOS_OLIVOS_-_CENTRO_OCUPACIONAL_MANTENIMIENTO_DE_EDIFICIOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACIËN PSICOSOCIAL LOS OLIVOS - CENTRO OCUPACIONAL MANTENIMIENTO DE EDIFICIOS</vCard:Name> 
@@ -696,7 +667,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_LOS_OLIVOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_LOS_OLIVOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA LOS OLIVOS</vCard:Name> 
@@ -720,20 +691,17 @@
             <vCard:geo>28.123.903, -16.733.912</vCard:geo> 
             <geo:lat>28.123.903</geo:lat> 
             <geo:long>-16.733.912</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_HUERTO_EL_VISO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_HUERTO_EL_VISO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL HUERTO EL VISO</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 768 512" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -750,13 +718,12 @@
             <vCard:geo>28.163.722, -16.433.906</vCard:geo> 
             <geo:lat>28.163.722</geo:lat> 
             <geo:long>-16.433.906</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_OROBAL">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_OROBAL">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL OROBAL</vCard:Name> 
@@ -780,13 +747,12 @@
             <vCard:geo>28.054.688, -16.724.447</vCard:geo> 
             <geo:lat>28.054.688</geo:lat> 
             <geo:long>-16.724.447</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_LAS_GALLETAS_ARONA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/PISOS_TUTELADOS_LAS_GALLETAS_ARONA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>PISOS TUTELADOS LAS GALLETAS ARONA</vCard:Name> 
@@ -816,20 +782,17 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/TALLER_ROSAS_DEL_GUANCHE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/TALLER_ROSAS_DEL_GUANCHE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>TALLER ROSAS DEL GUANCHE</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 721 030" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>ARONA</vCard:locality> 
@@ -840,13 +803,12 @@
             <vCard:geo>28.079.356, -16.665.654</vCard:geo> 
             <geo:lat>28.079.356</geo:lat> 
             <geo:long>-16.665.654</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_COMARCAL_ISLA_BAJA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_COMARCAL_ISLA_BAJA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL COMARCAL ISLA BAJA</vCard:Name> 
@@ -870,13 +832,12 @@
             <vCard:geo>28.369.699, -16.845.731</vCard:geo> 
             <geo:lat>28.369.699</geo:lat> 
             <geo:long>-16.845.731</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_COMARCAL_ISLA_BAJA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_COMARCAL_ISLA_BAJA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA COMARCAL ISLA BAJA</vCard:Name> 
@@ -900,13 +861,12 @@
             <vCard:geo>28.369.726, -16.845.749</vCard:geo> 
             <geo:lat>28.369.726</geo:lat> 
             <geo:long>-16.845.749</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_ARCO_IRIS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_ARCO_IRIS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL ARCO IRIS</vCard:Name> 
@@ -930,13 +890,12 @@
             <vCard:geo>28.365.304, -16.364.659</vCard:geo> 
             <geo:lat>28.365.304</geo:lat> 
             <geo:long>-16.364.659</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_ARCO_IRIS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_ARCO_IRIS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA ARCO IRIS</vCard:Name> 
@@ -960,20 +919,17 @@
             <vCard:geo>28.365.295, -16.364.752</vCard:geo> 
             <geo:lat>28.365.295</geo:lat> 
             <geo:long>-16.364.752</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ATENCION_A_MINUSVALIDOS_FISICOS_EL_SAUZAL">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_ATENCION_A_MINUSVALIDOS_FISICOS_EL_SAUZAL">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ATENCION A MINUSVALIDOS FISICOS EL SAUZAL</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 573 292" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -990,20 +946,17 @@
             <vCard:geo>28.479.755, -16.435.983</vCard:geo> 
             <geo:lat>28.479.755</geo:lat> 
             <geo:long>-16.435.983</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ATENCION_A_MINUSVALIDOS_FISICOS_EL_SAUZAL">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_ATENCION_A_MINUSVALIDOS_FISICOS_EL_SAUZAL">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ATENCION A MINUSVALIDOS FISICOS EL SAUZAL</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 573 292" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1020,26 +973,22 @@
             <vCard:geo>28.479.769, -16.435.986</vCard:geo> 
             <geo:lat>28.479.769</geo:lat> 
             <geo:long>-16.435.986</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_ATENCION_A_LA_DIVERSIDAD">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_ATENCION_A_LA_DIVERSIDAD">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA ATENCION A LA DIVERSIDAD</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 390 620" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>GRANADILLA DE ABONA</vCard:locality> 
@@ -1050,13 +999,12 @@
             <vCard:geo>28.075.908, -16.554.768</vCard:geo> 
             <geo:lat>28.075.908</geo:lat> 
             <geo:long>-16.554.768</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_MARIA_DE_LAS_CASAS_-_CENTRO_OCUPACIONAL_CERAMICA_TRADICIONAL_CANARIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_MARIA_DE_LAS_CASAS_-_CENTRO_OCUPACIONAL_CERAMICA_TRADICIONAL_CANARIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL MARIA DE LAS CASAS - CENTRO OCUPACIONAL CERAMICA TRADICIONAL CANARIA</vCard:Name> 
@@ -1069,7 +1017,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>GRANADILLA DE ABONA</vCard:locality> 
@@ -1086,7 +1033,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_SAN_ISIDRO_PAISAJE_LUNAR">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/PISOS_TUTELADOS_SAN_ISIDRO_PAISAJE_LUNAR">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>PISOS TUTELADOS SAN ISIDRO PAISAJE LUNAR</vCard:Name> 
@@ -1116,7 +1063,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/PISOS_TUTELADOS_SAN_ISIDRO_URBANIZACION_INVERNADEROS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/PISOS_TUTELADOS_SAN_ISIDRO_URBANIZACION_INVERNADEROS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>PISOS TUTELADOS SAN ISIDRO URBANIZACION INVERNADEROS</vCard:Name> 
@@ -1146,14 +1093,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_PLAYA_SAN_JUAN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_PLAYA_SAN_JUAN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA PLAYA SAN JUAN</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 865 704" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1170,13 +1115,12 @@
             <vCard:geo>28.182.675, -16.817.408</vCard:geo> 
             <geo:lat>28.182.675</geo:lat> 
             <geo:long>-16.817.408</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_-_CENTRO_DE_DIA_GUIA_DE_ISORA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_-_CENTRO_DE_DIA_GUIA_DE_ISORA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL - CENTRO DE DIA GUIA DE ISORA</vCard:Name> 
@@ -1206,14 +1150,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_ISORA_-_CENTRO_OCUPACIONAL_AGROJARDINERIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_ISORA_-_CENTRO_OCUPACIONAL_AGROJARDINERIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL ISORA - CENTRO OCUPACIONAL AGROJARDINERIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="661 294 539" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1236,14 +1178,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_PLAYA_DE_SAN_JUAN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_PLAYA_DE_SAN_JUAN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL PLAYA DE SAN JUAN</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 865 704" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1260,20 +1200,17 @@
             <vCard:geo>28.182.688, -16.817.428</vCard:geo> 
             <geo:lat>28.182.688</geo:lat> 
             <geo:long>-16.817.428</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ATENCION_A_MINUSVALIDOS_PSIQUICOS_REINA_SOFIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_ATENCION_A_MINUSVALIDOS_PSIQUICOS_REINA_SOFIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ATENCION A MINUSVALIDOS PSIQUICOS REINA SOFIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 511 750" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1290,20 +1227,17 @@
             <vCard:geo>28.330.658, -16.413.574</vCard:geo> 
             <geo:lat>28.330.658</geo:lat> 
             <geo:long>-16.413.574</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_ATENCION_A_MINUSVALIDOS_PSIQUICOS_REINA_SOFIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_ATENCION_A_MINUSVALIDOS_PSIQUICOS_REINA_SOFIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ATENCION A MINUSVALIDOS PSIQUICOS REINA SOFIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 511 750" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1320,13 +1254,12 @@
             <vCard:geo>28.330.623, -1.641.354</vCard:geo> 
             <geo:lat>28.330.623</geo:lat> 
             <geo:long>-1.641.354</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_ICOD_DE_LOS_VINOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_ICOD_DE_LOS_VINOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL ICOD DE LOS VINOS</vCard:Name> 
@@ -1356,7 +1289,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_JARAMAGO_RECICLAJE_CREATIVO_AGROJARDINERIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_JARAMAGO_RECICLAJE_CREATIVO_AGROJARDINERIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL JARAMAGO RECICLAJE CREATIVO AGROJARDINERIA</vCard:Name> 
@@ -1386,14 +1319,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LA_GUANCHA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_LA_GUANCHA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL LA GUANCHA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 130 084" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1410,20 +1341,17 @@
             <vCard:geo>28.377.991, -16.653.699</vCard:geo> 
             <geo:lat>28.377.991</geo:lat> 
             <geo:long>-16.653.699</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_LA_GUANCHA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_LA_GUANCHA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA LA GUANCHA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 130 084" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1440,13 +1368,12 @@
             <vCard:geo>28.378.028, -16.653.692</vCard:geo> 
             <geo:lat>28.378.028</geo:lat> 
             <geo:long>-16.653.692</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_EL_CREVO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_EL_CREVO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION EL CREVO</vCard:Name> 
@@ -1470,13 +1397,12 @@
             <vCard:geo>28.397.176, -1.651.507</vCard:geo> 
             <geo:lat>28.397.176</geo:lat> 
             <geo:long>-1.651.507</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_EL_VALLE_ACTIVIDADES_MANUALES_CREATIVAS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_EL_VALLE_ACTIVIDADES_MANUALES_CREATIVAS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL EL VALLE ACTIVIDADES MANUALES CREATIVAS</vCard:Name> 
@@ -1506,7 +1432,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/ASOCIACION_QUIERO_SER_COMO_TU_AYUDAME">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/ASOCIACION_QUIERO_SER_COMO_TU_AYUDAME">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>ASOCIACION QUIERO SER COMO TU AYUDAME</vCard:Name> 
@@ -1530,13 +1456,12 @@
             <vCard:geo>28.489.442, -16.400.985</vCard:geo> 
             <geo:lat>28.489.442</geo:lat> 
             <geo:long>-16.400.985</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LA_ALHONDIGA_PERMACULTURA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_LA_ALHONDIGA_PERMACULTURA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL LA ALHONDIGA PERMACULTURA</vCard:Name> 
@@ -1566,7 +1491,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LOS_ANDES_AGROJARDINERIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_LOS_ANDES_AGROJARDINERIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL LOS ANDES AGROJARDINERIA</vCard:Name> 
@@ -1596,7 +1521,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_VALLE_DE_LA_OROTAVA_-_LA_LUZ_ASPRONTE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_VALLE_DE_LA_OROTAVA_-_LA_LUZ_ASPRONTE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL VALLE DE LA OROTAVA - LA LUZ ASPRONTE</vCard:Name> 
@@ -1620,26 +1545,22 @@
             <vCard:geo>28.403.744, -16.511.508</vCard:geo> 
             <geo:lat>28.403.744</geo:lat> 
             <geo:long>-16.511.508</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HUERTO_OCUPACIONAL_CAMINO_DE_CHASNA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/HUERTO_OCUPACIONAL_CAMINO_DE_CHASNA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HUERTO OCUPACIONAL CAMINO DE CHASNA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 336 122" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>OROTAVA. LA</vCard:locality> 
@@ -1650,26 +1571,22 @@
             <vCard:geo>28.378.919, -16.509.357</vCard:geo> 
             <geo:lat>28.378.919</geo:lat> 
             <geo:long>-16.509.357</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HUERTO_OCUPACIONAL_CAMINO_DE_CHASNA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/HUERTO_OCUPACIONAL_CAMINO_DE_CHASNA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HUERTO OCUPACIONAL CAMINO DE CHASNA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 336 122" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>OROTAVA. LA</vCard:locality> 
@@ -1680,20 +1597,17 @@
             <vCard:geo>2.837.895, -1.650.934</vCard:geo> 
             <geo:lat>2.837.895</geo:lat> 
             <geo:long>-1.650.934</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_SANTOS_ANGELES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/HOGAR_SANTOS_ANGELES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOGAR SANTOS ANGELES</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 336 329" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1710,13 +1624,12 @@
             <vCard:geo>28.392.989, -16.524.582</vCard:geo> 
             <geo:lat>28.392.989</geo:lat> 
             <geo:long>-16.524.582</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_MINUSVALIDO_PROBOSCO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/HOGAR_MINUSVALIDO_PROBOSCO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOGAR MINUSVALIDO PROBOSCO</vCard:Name> 
@@ -1740,20 +1653,17 @@
             <vCard:geo>28.391.746, -16.524.547</vCard:geo> 
             <geo:lat>28.391.746</geo:lat> 
             <geo:long>-16.524.547</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_LA_VICTORIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_LA_VICTORIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL LA VICTORIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 582 002" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1770,20 +1680,17 @@
             <vCard:geo>28.435.198, -16.468.092</vCard:geo> 
             <geo:lat>28.435.198</geo:lat> 
             <geo:long>-16.468.092</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_LA_VICTORIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_LA_VICTORIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA LA VICTORIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 582 002" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1800,20 +1707,17 @@
             <vCard:geo>28.435.205, -16.468.076</vCard:geo> 
             <geo:lat>28.435.205</geo:lat> 
             <geo:long>-16.468.076</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_DE_LOS_REALEJOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_DE_LOS_REALEJOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL DE LOS REALEJOS</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="618 623 090" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1830,26 +1734,22 @@
             <vCard:geo>28.388.538, -16.579.481</vCard:geo> 
             <geo:lat>28.388.538</geo:lat> 
             <geo:long>-16.579.481</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_PUERTO_DE_LA_CRUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_PUERTO_DE_LA_CRUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL PUERTO DE LA CRUZ</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 378 400" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>PUERTO DE LA CRUZ</vCard:locality> 
@@ -1860,13 +1760,12 @@
             <vCard:geo>28.415.814, -16.553.996</vCard:geo> 
             <geo:lat>28.415.814</geo:lat> 
             <geo:long>-16.553.996</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_REHABILITACION_PSICOSOCIAL_PUERTO_DE_LA_CRUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_REHABILITACION_PSICOSOCIAL_PUERTO_DE_LA_CRUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE REHABILITACION PSICOSOCIAL PUERTO DE LA CRUZ</vCard:Name> 
@@ -1896,7 +1795,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_DE_SAN_JUAN_DE_LA_RAMBLA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_DE_SAN_JUAN_DE_LA_RAMBLA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL DE SAN JUAN DE LA RAMBLA</vCard:Name> 
@@ -1920,13 +1819,12 @@
             <vCard:geo>283.776, -16.648.241</vCard:geo> 
             <geo:lat>283.776</geo:lat> 
             <geo:long>-16.648.241</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_DE_SAN_JUAN_DE_LA_RAMBLA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_DE_SAN_JUAN_DE_LA_RAMBLA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA DE SAN JUAN DE LA RAMBLA</vCard:Name> 
@@ -1950,13 +1848,12 @@
             <vCard:geo>28.377.624, -16.648.193</vCard:geo> 
             <geo:lat>28.377.624</geo:lat> 
             <geo:long>-16.648.193</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_OCUPACIONAL_SAN_MIGUEL_AMISUR">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_OCUPACIONAL_SAN_MIGUEL_AMISUR">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO OCUPACIONAL SAN MIGUEL AMISUR</vCard:Name> 
@@ -1980,13 +1877,12 @@
             <vCard:geo>28.066.609, -16.623.051</vCard:geo> 
             <geo:lat>28.066.609</geo:lat> 
             <geo:long>-16.623.051</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_DE_DIA_SAN_MIGUEL_AMISUR">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_DE_DIA_SAN_MIGUEL_AMISUR">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA SAN MIGUEL AMISUR</vCard:Name> 
@@ -2010,13 +1906,12 @@
             <vCard:geo>28.066.572, -1.662.303</vCard:geo> 
             <geo:lat>28.066.572</geo:lat> 
             <geo:long>-1.662.303</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_SAN_MIGUEL_LAS_CHAFIRAS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/HOGAR_SAN_MIGUEL_LAS_CHAFIRAS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOGAR SAN MIGUEL LAS CHAFIRAS</vCard:Name> 
@@ -2040,13 +1935,12 @@
             <vCard:geo>28.048.766, -16.618.167</vCard:geo> 
             <geo:lat>28.048.766</geo:lat> 
             <geo:long>-16.618.167</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_SAN_MIGUEL_LAS_CHAFIRAS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/HOGAR_SAN_MIGUEL_LAS_CHAFIRAS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOGAR SAN MIGUEL LAS CHAFIRAS</vCard:Name> 
@@ -2070,13 +1964,12 @@
             <vCard:geo>28.048.753, -16.618.263</vCard:geo> 
             <geo:lat>28.048.753</geo:lat> 
             <geo:long>-16.618.263</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/CENTRO_HELLEN_KELLER">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/CENTRO_HELLEN_KELLER">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO HELLEN KELLER</vCard:Name> 
@@ -2106,14 +1999,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/discapacidad/HOGAR_NUESTRA_SENORA_DE_LA_CANDELARIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/disability/HOGAR_NUESTRA_SENORA_DE_LA_CANDELARIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOGAR NUESTRA SEÑORA DE LA CANDELARIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 863 490" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2130,7 +2021,6 @@
             <vCard:geo>28.292.782, -16.814.075</vCard:geo> 
             <geo:lat>28.292.782</geo:lat> 
             <geo:long>-16.814.075</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>

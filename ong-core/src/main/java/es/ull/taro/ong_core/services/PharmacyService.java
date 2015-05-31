@@ -1,5 +1,6 @@
 package es.ull.taro.ong_core.services;
 
+import java.awt.List;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -11,5 +12,9 @@ public interface PharmacyService {
 
 	public ArrayList<GeoResource> find(String name);
 	
-	public HashMap<String, String> describeUri(String uri); 
+	public HashMap<String, String> describeUri(String uri);
+	
+//	public ArrayList<String> findAround(float latitude, float longitude, int radiusInMeters);
+//
+//	public ArrayList<GeoResource> findPharmacyAround(String uri, int radius);
 }

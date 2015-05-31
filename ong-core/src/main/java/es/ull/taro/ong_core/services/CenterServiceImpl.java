@@ -101,6 +101,6 @@ public class CenterServiceImpl implements CenterService {
 //	}
 
 	protected static Model loadRDFFile() {
-		return RDFDataMgr.loadModel("farmacias.rdf");
+		return RDFDataMgr.loadModel("centers1.rdf");
 	}
 }

@@ -165,6 +165,6 @@ public class DisabilityServiceImpl implements DisabilityService{
 	}
 
 	protected static Model loadRDFFile() {
-		return RDFDataMgr.loadModel("recursos_discapacidad.rdf");
+		return RDFDataMgr.loadModel("disability.rdf");
 	}
 }

@@ -165,7 +165,7 @@ public class ElderlyServiceImpl implements ElderlyService {
 	}
 
 	protected static Model loadRDFFile() {
-		return RDFDataMgr.loadModel("recursos_mayores.rdf");
+		return RDFDataMgr.loadModel("elderly.rdf");
 	}
 
 }

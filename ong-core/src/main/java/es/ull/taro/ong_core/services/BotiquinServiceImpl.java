@@ -148,7 +148,7 @@ public class BotiquinServiceImpl implements BotiquinService{
 	}
 
 	protected static Model loadRDFFile() {
-		return RDFDataMgr.loadModel("botiquines.rdf");
+		return RDFDataMgr.loadModel("botiquin.rdf");
 	}
 
 }

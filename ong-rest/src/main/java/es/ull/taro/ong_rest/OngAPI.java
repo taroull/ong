@@ -109,6 +109,8 @@ public class OngAPI {
 		return elderlyService.describeUri(uri);
 	}
 	
+	/* LLamadas por radio */
+	
 	/* DBpedia*/
 	
 	@GET
@@ -118,5 +120,10 @@ public class OngAPI {
 		return dbpediaService.retrieveCenterInfo(uri);
 	}
 	
-	
+//	@GET
+//	@Produces(MediaType.APPLICATION_JSON)
+//	@Path("pharmacyAround")
+//	public ArrayList<GeoResource> findPharmacyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+//		return pharmacyService.findPharmacyAround(uri, radius);
+//	}
 }

@@ -6,7 +6,7 @@
           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
           xmlns:vCard="http://www.w3.org/TR/vcard-rdf/">
           
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_DIA_DE_MAYORES_DE_SANTA_CRUZ_DE_TENERIFE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_DIA_DE_MAYORES_DE_SANTA_CRUZ_DE_TENERIFE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA DE MAYORES DE SANTA CRUZ DE TENERIFE</vCard:Name> 
@@ -30,20 +30,17 @@
             <vCard:geo>28.464.381, -16.255.321</vCard:geo> 
             <geo:lat>28.464.381</geo:lat> 
             <geo:long>-16.255.321</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_MAYORES_SANTA_GEMA_EN_TENERIFE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_MAYORES_SANTA_GEMA_EN_TENERIFE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE MAYORES SANTA GEMA EN TENERIFE</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 655 667" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -60,13 +57,12 @@
             <vCard:geo>2.846.751, -1.627.701</vCard:geo> 
             <geo:lat>2.846.751</geo:lat> 
             <geo:long>-1.627.701</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_RESIDENCIAL_EL_MIRADOR_DE_IFARA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_RESIDENCIAL_EL_MIRADOR_DE_IFARA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO RESIDENCIAL EL MIRADOR DE IFARA</vCard:Name> 
@@ -96,14 +92,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_GERONTOLOGICO_AMMA_SANTA_CRUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_GERONTOLOGICO_AMMA_SANTA_CRUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO GERONTOLOGICO AMMA SANTA CRUZ</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 276 105" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -120,20 +114,17 @@
             <vCard:geo>28.479.388, -16.256.057</vCard:geo> 
             <geo:lat>28.479.388</geo:lat> 
             <geo:long>-16.256.057</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_RESIDENCIAL_TENERIFE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_RESIDENCIAL_TENERIFE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO RESIDENCIAL TENERIFE</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 249 134" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -150,20 +141,17 @@
             <vCard:geo>2.847.025, -16.258.767</vCard:geo> 
             <geo:lat>2.847.025</geo:lat> 
             <geo:long>-16.258.767</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_SANTA_CRUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_SANTA_CRUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO SANTA CRUZ</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 245 657" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -186,14 +174,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/ISABA_CASA_DE_MAYORES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/ISABA_CASA_DE_MAYORES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>ISABA CASA DE MAYORES</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 657 098" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -210,13 +196,12 @@
             <vCard:geo>28.465.389, -16.281.237</vCard:geo> 
             <geo:lat>28.465.389</geo:lat> 
             <geo:long>-16.281.237</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_DE_ANCIANOS_CONCHA_CASTRO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_DE_ANCIANOS_CONCHA_CASTRO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA DE ANCIANOS CONCHA CASTRO</vCard:Name> 
@@ -229,7 +214,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>SANTA CRUZ DE TENERIFE</vCard:locality> 
@@ -240,20 +224,17 @@
             <vCard:geo>28.471.996, -16.278.435</vCard:geo> 
             <geo:lat>28.471.996</geo:lat> 
             <geo:long>-16.278.435</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_DE_MAYORES_OFRA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_DE_MAYORES_OFRA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA DE MAYORES OFRA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 646 309" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -270,13 +251,12 @@
             <vCard:geo>28.460.339, -16.286.207</vCard:geo> 
             <geo:lat>28.460.339</geo:lat> 
             <geo:long>-16.286.207</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_ACORAN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_ACORAN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD ACORAN</vCard:Name> 
@@ -298,22 +278,20 @@
               </vCard:Address>
             </vCard:hasAddress>
             <vCard:geo>28.417.374, -1.630.323</vCard:geo> 
-            <geo:lat>28.417374</geo:lat> 
-            <geo:long>-16.30323</geo:long> 
+            <geo:lat>28.417.374</geo:lat> 
+            <geo:long>-1.630.323</geo:long> 
             <foaf:homepage rdf:resource="WWW.ACORAN-TENERIFE.COM" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_SAN_PANCRACIO_VISTABELLA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_SAN_PANCRACIO_VISTABELLA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD SAN PANCRACIO VISTABELLA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 662 236" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -336,14 +314,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_GRANADA-ANDALUCIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_GRANADA-ANDALUCIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD GRANADA-ANDALUCIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 289 121" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -360,20 +336,17 @@
             <vCard:geo>28.472.699, -16.258.746</vCard:geo> 
             <geo:lat>28.472.699</geo:lat> 
             <geo:long>-16.258.746</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_SANTA_MARIA_DE_LA_ASCENCION">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_SANTA_MARIA_DE_LA_ASCENCION">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD SANTA MARIA DE LA ASCENCION</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 219 181" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -390,20 +363,17 @@
             <vCard:geo>28.458.507, -16.277.908</vCard:geo> 
             <geo:lat>28.458.507</geo:lat> 
             <geo:long>-16.277.908</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_VIRGEN_DE_BEGOÐA_I">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_VIRGEN_DE_BEGOÐA_I">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD VIRGEN DE BEGOÐA I</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 277 838" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -420,20 +390,17 @@
             <vCard:geo>2.847.071, -16.258.243</vCard:geo> 
             <geo:lat>2.847.071</geo:lat> 
             <geo:long>-16.258.243</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_VIRGEN_DE_BEGOÐA_II">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_VIRGEN_DE_BEGOÐA_II">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD VIRGEN DE BEGOÐA II</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 200 548" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -450,13 +417,12 @@
             <vCard:geo>28.465.547, -16.265.081</vCard:geo> 
             <geo:lat>28.465.547</geo:lat> 
             <geo:long>-16.265.081</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CASA_DE_ACOGIDA_ORDEN_DE_LOS_HERMANOS_DE_BELEN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CASA_DE_ACOGIDA_ORDEN_DE_LOS_HERMANOS_DE_BELEN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CASA DE ACOGIDA ORDEN DE LOS HERMANOS DE BELEN</vCard:Name> 
@@ -469,7 +435,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
@@ -486,14 +451,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ATENCION_MAYORES_HOGAR_VIRGEN_PODEROSA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ATENCION_MAYORES_HOGAR_VIRGEN_PODEROSA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ATENCION MAYORES HOGAR VIRGEN PODEROSA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 632 227" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -510,20 +473,17 @@
             <vCard:geo>28.489.667, -16.313.134</vCard:geo> 
             <geo:lat>28.489.667</geo:lat> 
             <geo:long>-16.313.134</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ATENCION_ESPECIALIZADA_DELFIN_BAJAMAR">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ATENCION_ESPECIALIZADA_DELFIN_BAJAMAR">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ATENCION ESPECIALIZADA DELFIN BAJAMAR</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 382 238" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -540,20 +500,17 @@
             <vCard:geo>28.556.044, -16.343.692</vCard:geo> 
             <geo:lat>28.556.044</geo:lat> 
             <geo:long>-16.343.692</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_MAYORES_JUMERTIZA_LAS_CAÐADAS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_MAYORES_JUMERTIZA_LAS_CAÐADAS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE MAYORES JUMERTIZA LAS CAÐADAS</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 638 793" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -570,20 +527,17 @@
             <vCard:geo>28.487.676, -16.362.971</vCard:geo> 
             <geo:lat>28.487.676</geo:lat> 
             <geo:long>-16.362.971</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_TEJINA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_TEJINA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO TEJINA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 546 750" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -600,20 +554,17 @@
             <vCard:geo>28.526.514, -16.379.684</vCard:geo> 
             <geo:lat>28.526.514</geo:lat> 
             <geo:long>-16.379.684</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/HOGAR_PENSIONISTA_PADRE_ANCHIETA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/HOGAR_PENSIONISTA_PADRE_ANCHIETA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOGAR PENSIONISTA PADRE ANCHIETA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 630 312" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -630,20 +581,17 @@
             <vCard:geo>28.488.289, -16.320.953</vCard:geo> 
             <geo:lat>28.488.289</geo:lat> 
             <geo:long>-16.320.953</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/HOGAR_SANTISIMO_CRISTO_DE_LA_LAGUNA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/HOGAR_SANTISIMO_CRISTO_DE_LA_LAGUNA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOGAR SANTISIMO CRISTO DE LA LAGUNA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 252 247" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -660,13 +608,12 @@
             <vCard:geo>284.922, -16.312.936</vCard:geo> 
             <geo:lat>284.922</geo:lat> 
             <geo:long>-16.312.936</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/HOSPITAL_NUESTRA_SENORA_DE_LOS_DOLORES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/HOSPITAL_NUESTRA_SENORA_DE_LOS_DOLORES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOSPITAL NUESTRA SEÑORA DE LOS DOLORES</vCard:Name> 
@@ -690,13 +637,12 @@
             <vCard:geo>28.448.587, -16.309.802</vCard:geo> 
             <geo:lat>28.448.587</geo:lat> 
             <geo:long>-16.309.802</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ATENCION_A_PERSONAS_MAYORES_LAS_HORTENSIAS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ATENCION_A_PERSONAS_MAYORES_LAS_HORTENSIAS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ATENCION A PERSONAS MAYORES LAS HORTENSIAS</vCard:Name> 
@@ -726,7 +672,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_ESTANCIA_NUESTRA_SEÐORA_DE_LAS_NIEVES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_ESTANCIA_NUESTRA_SEÐORA_DE_LAS_NIEVES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA ESTANCIA NUESTRA SEÐORA DE LAS NIEVES</vCard:Name> 
@@ -739,7 +685,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>SAN CRISTOBAL DE LA LAGUNA</vCard:locality> 
@@ -756,7 +701,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_SOCIOSANITARIA_MARIA_AUXILIADORA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_SOCIOSANITARIA_MARIA_AUXILIADORA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA SOCIOSANITARIA MARIA AUXILIADORA</vCard:Name> 
@@ -780,20 +725,17 @@
             <vCard:geo>28.341.797, -16.418.685</vCard:geo> 
             <geo:lat>28.341.797</geo:lat> 
             <geo:long>-16.418.685</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_DE_MAYORES_Y_CENTRO_DE_DIA_DE_LOS_CRISTIANOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_DE_MAYORES_Y_CENTRO_DE_DIA_DE_LOS_CRISTIANOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA DE MAYORES Y CENTRO DE DIA DE LOS CRISTIANOS</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 788 067" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -810,13 +752,12 @@
             <vCard:geo>2.805.226, -16.713.396</vCard:geo> 
             <geo:lat>2.805.226</geo:lat> 
             <geo:long>-16.713.396</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CASA_DE_MAYORES_DE_BUENAVISTA_DEL_NORTE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CASA_DE_MAYORES_DE_BUENAVISTA_DEL_NORTE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CASA DE MAYORES DE BUENAVISTA DEL NORTE</vCard:Name> 
@@ -840,13 +781,12 @@
             <vCard:geo>28.374.462, -1.685.183</vCard:geo> 
             <geo:lat>28.374.462</geo:lat> 
             <geo:long>-1.685.183</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/FUNDACION_CASA_DE_ACOGIDA_MADRE_DEL_REDENTOR">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/FUNDACION_CASA_DE_ACOGIDA_MADRE_DEL_REDENTOR">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>FUNDACION CASA DE ACOGIDA MADRE DEL REDENTOR</vCard:Name> 
@@ -870,20 +810,17 @@
             <vCard:geo>2.847.747, -16.435.271</vCard:geo> 
             <geo:lat>2.847.747</geo:lat> 
             <geo:long>-16.435.271</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_MAYORES_TOKI_EDER">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_MAYORES_TOKI_EDER">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE MAYORES TOKI EDER</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 643 856" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -900,20 +837,17 @@
             <vCard:geo>28.461.255, -16.282.052</vCard:geo> 
             <geo:lat>28.461.255</geo:lat> 
             <geo:long>-16.282.052</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_FASNIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_FASNIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO FASNIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 530 354" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -930,13 +864,12 @@
             <vCard:geo>28.235.604, -16.439.408</vCard:geo> 
             <geo:lat>28.235.604</geo:lat> 
             <geo:long>-16.439.408</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CASA_TUTELADA_GUIA_DE_ISORA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CASA_TUTELADA_GUIA_DE_ISORA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CASA TUTELADA GUIA DE ISORA</vCard:Name> 
@@ -966,7 +899,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/ASOCIACION_BENEFICA_HERMANOS_DE_SAN_JOSE_Y_MARIA_CASA_DE_LA_SOLIDARIDAD">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/ASOCIACION_BENEFICA_HERMANOS_DE_SAN_JOSE_Y_MARIA_CASA_DE_LA_SOLIDARIDAD">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>ASOCIACION BENEFICA HERMANOS DE SAN JOSE Y MARIA CASA DE LA SOLIDARIDAD</vCard:Name> 
@@ -979,7 +912,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>GÜIMAR</vCard:locality> 
@@ -990,13 +922,12 @@
             <vCard:geo>28.316.673, -16.414.667</vCard:geo> 
             <geo:lat>28.316.673</geo:lat> 
             <geo:long>-16.414.667</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/HERMANAS_HOSPITALARIAS_DEL_SAGRADO_CORAZON_DE_JESUS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/HERMANAS_HOSPITALARIAS_DEL_SAGRADO_CORAZON_DE_JESUS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HERMANAS HOSPITALARIAS DEL SAGRADO CORAZON DE JESUS</vCard:Name> 
@@ -1026,14 +957,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_GUIMAR">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_GUIMAR">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO GUIMAR</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 528 232" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1050,13 +979,12 @@
             <vCard:geo>28.295.458, -1.637.683</vCard:geo> 
             <geo:lat>28.295.458</geo:lat> 
             <geo:long>-1.637.683</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/HOSPITAL_DE_LA_SANTISIMA_TRINIDAD_DE_ICOD_DE_LOS_VINOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/HOSPITAL_DE_LA_SANTISIMA_TRINIDAD_DE_ICOD_DE_LOS_VINOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOSPITAL DE LA SANTISIMA TRINIDAD DE ICOD DE LOS VINOS</vCard:Name> 
@@ -1086,7 +1014,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/HOSPITAL_NUESTRA_SENORA_DE_LOS_DOLORES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/HOSPITAL_NUESTRA_SENORA_DE_LOS_DOLORES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOSPITAL NUESTRA SEÑORA DE LOS DOLORES</vCard:Name> 
@@ -1110,13 +1038,12 @@
             <vCard:geo>283.661, -16.720.754</vCard:geo> 
             <geo:lat>283.661</geo:lat> 
             <geo:long>-16.720.754</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_EL_JARDIN_DEL_ABUELO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_EL_JARDIN_DEL_ABUELO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA EL JARDIN DEL ABUELO</vCard:Name> 
@@ -1140,20 +1067,17 @@
             <vCard:geo>28.471.221, -16.325.232</vCard:geo> 
             <geo:lat>28.471.221</geo:lat> 
             <geo:long>-16.325.232</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_GEROVITAE_LA_GUANCHA_S.L.">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_GEROVITAE_LA_GUANCHA_S_L_">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO GEROVITAE LA GUANCHA S.L.</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 829 836" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1170,13 +1094,12 @@
             <vCard:geo>28.377.967, -16.651.702</vCard:geo> 
             <geo:lat>28.377.967</geo:lat> 
             <geo:long>-16.651.702</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ATENCIËN_TERAPEUTICA_Y_CURATIVA_SAN_JUAN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ATENCIËN_TERAPEUTICA_Y_CURATIVA_SAN_JUAN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ATENCIËN TERAPEUTICA Y CURATIVA SAN JUAN</vCard:Name> 
@@ -1200,20 +1123,17 @@
             <vCard:geo>28.117.732, -16.728.017</vCard:geo> 
             <geo:lat>28.117.732</geo:lat> 
             <geo:long>-16.728.017</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_GERIATRICA_SANTO_DOMINGO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_GERIATRICA_SANTO_DOMINGO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA GERIATRICA SANTO DOMINGO</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 562 502" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1230,20 +1150,17 @@
             <vCard:geo>28.390.749, -16.672.911</vCard:geo> 
             <geo:lat>28.390.749</geo:lat> 
             <geo:long>-16.672.911</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_DE_MAYORES_Y_CENTRO_DE_ESTANCIA_DIURNA_SANTA_CATALINA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_DE_MAYORES_Y_CENTRO_DE_ESTANCIA_DIURNA_SANTA_CATALINA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA DE MAYORES Y CENTRO DE ESTANCIA DIURNA SANTA CATALINA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 724 858" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1260,13 +1177,12 @@
             <vCard:geo>28.090.429, -16.724.889</vCard:geo> 
             <geo:lat>28.090.429</geo:lat> 
             <geo:long>-16.724.889</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/FUNDACION_CANARIA_FAMILIA_QUESADA_SANCHEZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/FUNDACION_CANARIA_FAMILIA_QUESADA_SANCHEZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>FUNDACION CANARIA FAMILIA QUESADA SANCHEZ</vCard:Name> 
@@ -1290,20 +1206,17 @@
             <vCard:geo>28.478.181, -16.411.884</vCard:geo> 
             <geo:lat>28.478.181</geo:lat> 
             <geo:long>-16.411.884</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_SAN_SEBASTIAN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_SAN_SEBASTIAN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO SAN SEBASTIAN</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 335 226" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1320,20 +1233,17 @@
             <vCard:geo>28.392.975, -16.521.753</vCard:geo> 
             <geo:lat>28.392.975</geo:lat> 
             <geo:long>-16.521.753</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_ENFERMOS_CRONICOS_Y_TERCERA_EDAD_CHARLOTTE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_ENFERMOS_CRONICOS_Y_TERCERA_EDAD_CHARLOTTE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA ENFERMOS CRONICOS Y TERCERA EDAD CHARLOTTE</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 334 420" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1350,26 +1260,22 @@
             <vCard:geo>28.388.136, -16.523.451</vCard:geo> 
             <geo:lat>28.388.136</geo:lat> 
             <geo:long>-16.523.451</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_NUESTRA_SEÐORA_DEL_CARMEN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_NUESTRA_SEÐORA_DEL_CARMEN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO NUESTRA SEÐORA DEL CARMEN</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 355 608" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>REALEJOS. LOS</vCard:locality> 
@@ -1380,13 +1286,12 @@
             <vCard:geo>28.385.826, -16.582.277</vCard:geo> 
             <geo:lat>28.385.826</geo:lat> 
             <geo:long>-16.582.277</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/GERIATRICO_NUESTRA_SEÐORA_DE_LA_LUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/GERIATRICO_NUESTRA_SEÐORA_DE_LA_LUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>GERIATRICO NUESTRA SEÐORA DE LA LUZ</vCard:Name> 
@@ -1410,13 +1315,12 @@
             <vCard:geo>28.365.761, -16.814.754</vCard:geo> 
             <geo:lat>28.365.761</geo:lat> 
             <geo:long>-16.814.754</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CASA_DE_LOS_MAYORES_DE_LA_MATANZA_DE_ACENTEJO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CASA_DE_LOS_MAYORES_DE_LA_MATANZA_DE_ACENTEJO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CASA DE LOS MAYORES DE LA MATANZA DE ACENTEJO</vCard:Name> 
@@ -1440,20 +1344,17 @@
             <vCard:geo>28.447.671, -16.455.049</vCard:geo> 
             <geo:lat>28.447.671</geo:lat> 
             <geo:long>-16.455.049</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_SANTA_ANA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_SANTA_ANA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA SANTA ANA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 502 205" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1470,13 +1371,12 @@
             <vCard:geo>28.381.323, -16.361.547</vCard:geo> 
             <geo:lat>28.381.323</geo:lat> 
             <geo:long>-16.361.547</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/FUNDACION_CANARIA_HOGAR_SANTA_RITA_II">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/FUNDACION_CANARIA_HOGAR_SANTA_RITA_II">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>FUNDACION CANARIA HOGAR SANTA RITA II</vCard:Name> 
@@ -1500,13 +1400,12 @@
             <vCard:geo>28.409.827, -1.656.584</vCard:geo> 
             <geo:lat>28.409.827</geo:lat> 
             <geo:long>-1.656.584</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/FUNDACION_CANRIA_HOGAR_SANTA_RITA_I">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/FUNDACION_CANRIA_HOGAR_SANTA_RITA_I">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>FUNDACION CANRIA HOGAR SANTA RITA I</vCard:Name> 
@@ -1530,13 +1429,12 @@
             <vCard:geo>28.408.296, -16.554.664</vCard:geo> 
             <geo:lat>28.408.296</geo:lat> 
             <geo:long>-16.554.664</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/HOSPITAL_DE_LA_INMACULADA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/HOSPITAL_DE_LA_INMACULADA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>HOSPITAL DE LA INMACULADA</vCard:Name> 
@@ -1560,20 +1458,17 @@
             <vCard:geo>28.415.465, -16.548.307</vCard:geo> 
             <geo:lat>28.415.465</geo:lat> 
             <geo:long>-16.548.307</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/FUNDACION_CANARIA_HOSPITAL_LA_INMACULADA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/FUNDACION_CANARIA_HOSPITAL_LA_INMACULADA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>FUNDACION CANARIA HOSPITAL LA INMACULADA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 383 831" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1590,20 +1485,17 @@
             <vCard:geo>28.415.482, -16.548.307</vCard:geo> 
             <geo:lat>28.415.482</geo:lat> 
             <geo:long>-16.548.307</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_SAN_JUAN_DE_LA_RAMBLA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_SAN_JUAN_DE_LA_RAMBLA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO SAN JUAN DE LA RAMBLA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 360 015" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1620,20 +1512,17 @@
             <vCard:geo>2.839.527, -16.628.122</vCard:geo> 
             <geo:lat>2.839.527</geo:lat> 
             <geo:long>-16.628.122</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_SANTA_URSULA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_SANTA_URSULA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO SANTA URSULA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="928 304 303" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1650,20 +1539,17 @@
             <vCard:geo>28.415.178, -16.496.331</vCard:geo> 
             <geo:lat>28.415.178</geo:lat> 
             <geo:long>-16.496.331</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_SAN_MARCOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_SAN_MARCOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD SAN MARCOS</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 544 602" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1680,20 +1566,17 @@
             <vCard:geo>28.520.613, -1.635.645</vCard:geo> 
             <geo:lat>28.520.613</geo:lat> 
             <geo:long>-1.635.645</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_DIA_DE_MAYORES_DE_GUIMAR">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_DIA_DE_MAYORES_DE_GUIMAR">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA DE MAYORES DE GUIMAR</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 512 011" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1710,20 +1593,17 @@
             <vCard:geo>28.316.711, -16.405.166</vCard:geo> 
             <geo:lat>28.316.711</geo:lat> 
             <geo:long>-16.405.166</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_DIA_DE_MAYORES_DE_ICOD">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_DIA_DE_MAYORES_DE_ICOD">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA DE MAYORES DE ICOD</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 811 711" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1740,20 +1620,17 @@
             <vCard:geo>28.371.851, -16.713.209</vCard:geo> 
             <geo:lat>28.371.851</geo:lat> 
             <geo:long>-16.713.209</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CLINICA_CAPOTE_S.L.">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CLINICA_CAPOTE_S_L_">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CLINICA CAPOTE S.L.</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 278 299" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1770,20 +1647,17 @@
             <vCard:geo>28.470.411, -16.258.562</vCard:geo> 
             <geo:lat>28.470.411</geo:lat> 
             <geo:long>-16.258.562</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_VIRGEN_DE_CANDELARIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_VIRGEN_DE_CANDELARIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD VIRGEN DE CANDELARIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="667 619 078" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1800,13 +1674,12 @@
             <vCard:geo>28.464.109, -16.282.572</vCard:geo> 
             <geo:lat>28.464.109</geo:lat> 
             <geo:long>-16.282.572</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/PISOS_TUTELADOS_SANTA_CRUZ_DE_TENERIFE_AVENIDA_BUENOS_AIRES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/PISOS_TUTELADOS_SANTA_CRUZ_DE_TENERIFE_AVENIDA_BUENOS_AIRES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>PISOS TUTELADOS SANTA CRUZ DE TENERIFE AVENIDA BUENOS AIRES</vCard:Name> 
@@ -1836,14 +1709,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_SANTA_URSULA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_SANTA_URSULA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO SANTA URSULA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="928 304 898" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -1860,26 +1731,22 @@
             <vCard:geo>28.415.132, -16.496.314</vCard:geo> 
             <geo:lat>28.415.132</geo:lat> 
             <geo:long>-16.496.314</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_DIA_ATENCION_A_PERSONAS_MAYORES_DE_LA_VILLA_DE_TEGUESTE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_DIA_ATENCION_A_PERSONAS_MAYORES_DE_LA_VILLA_DE_TEGUESTE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA ATENCION A PERSONAS MAYORES DE LA VILLA DE TEGUESTE</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 316 102" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>TEGUESTE</vCard:locality> 
@@ -1890,13 +1757,12 @@
             <vCard:geo>28.523.762, -16.337.829</vCard:geo> 
             <geo:lat>28.523.762</geo:lat> 
             <geo:long>-16.337.829</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_DIA_RESPIRO_FAMILIAR_DE_AÐAZA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_DIA_RESPIRO_FAMILIAR_DE_AÐAZA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA RESPIRO FAMILIAR DE AÐAZA</vCard:Name> 
@@ -1926,7 +1792,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ESTANCIA_DIURNA_HASSIDIM">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ESTANCIA_DIURNA_HASSIDIM">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ESTANCIA DIURNA HASSIDIM</vCard:Name> 
@@ -1950,13 +1816,12 @@
             <vCard:geo>28.455.108, -16.285.255</vCard:geo> 
             <geo:lat>28.455.108</geo:lat> 
             <geo:long>-16.285.255</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/PARQUE_RESIDENCIAL_MAGNOLIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/PARQUE_RESIDENCIAL_MAGNOLIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>PARQUE RESIDENCIAL MAGNOLIA</vCard:Name> 
@@ -1986,14 +1851,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_GERONTOLOGICO_AMMA_SANTA_CRUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_GERONTOLOGICO_AMMA_SANTA_CRUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO GERONTOLOGICO AMMA SANTA CRUZ</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 276 105" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2010,20 +1873,17 @@
             <vCard:geo>28.479.736, -16.256.086</vCard:geo> 
             <geo:lat>28.479.736</geo:lat> 
             <geo:long>-16.256.086</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_SANTA_CRUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_SANTA_CRUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO SANTA CRUZ</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 245 657" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2046,14 +1906,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/ISABA_CASA_DE_MAYORES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/ISABA_CASA_DE_MAYORES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>ISABA CASA DE MAYORES</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 657 098" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2070,20 +1928,17 @@
             <vCard:geo>2.846.536, -16.281.251</vCard:geo> 
             <geo:lat>2.846.536</geo:lat> 
             <geo:long>-16.281.251</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_GRANADA-ANDALUCIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_GRANADA-ANDALUCIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD GRANADA-ANDALUCIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 289 121" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2100,13 +1955,12 @@
             <vCard:geo>28.472.699, -16.258.752</vCard:geo> 
             <geo:lat>28.472.699</geo:lat> 
             <geo:long>-16.258.752</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_DIA_DE_MAYORES_DE_LOS_REALEJOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_DIA_DE_MAYORES_DE_LOS_REALEJOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA DE MAYORES DE LOS REALEJOS</vCard:Name> 
@@ -2130,13 +1984,12 @@
             <vCard:geo>28.385.123, -16.582.772</vCard:geo> 
             <geo:lat>28.385.123</geo:lat> 
             <geo:long>-16.582.772</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ATENCION_A_PERSONAS_MAYORES_LAS_HORTENCIAS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ATENCION_A_PERSONAS_MAYORES_LAS_HORTENCIAS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ATENCION A PERSONAS MAYORES LAS HORTENCIAS</vCard:Name> 
@@ -2166,14 +2019,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_MAYORES_JUMERTIZA_LAS_CAÐADAS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_MAYORES_JUMERTIZA_LAS_CAÐADAS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE MAYORES JUMERTIZA LAS CAÐADAS</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 638 793" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2190,20 +2041,17 @@
             <vCard:geo>2.848.768, -16.363.007</vCard:geo> 
             <geo:lat>2.848.768</geo:lat> 
             <geo:long>-16.363.007</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_TEJINA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_TEJINA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO TEJINA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 546 750" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2220,13 +2068,12 @@
             <vCard:geo>28.526.516, -16.379.697</vCard:geo> 
             <geo:lat>28.526.516</geo:lat> 
             <geo:long>-16.379.697</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/GERIATRICO_NUESTRA_SEÐORA_DE_LA_LUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/GERIATRICO_NUESTRA_SEÐORA_DE_LA_LUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>GERIATRICO NUESTRA SEÐORA DE LA LUZ</vCard:Name> 
@@ -2250,13 +2097,12 @@
             <vCard:geo>28.365.749, -1.681.473</vCard:geo> 
             <geo:lat>28.365.749</geo:lat> 
             <geo:long>-1.681.473</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_EL_JARDIN_DEL_ABUELO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_EL_JARDIN_DEL_ABUELO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA EL JARDIN DEL ABUELO</vCard:Name> 
@@ -2280,20 +2126,17 @@
             <vCard:geo>28.471.244, -16.325.184</vCard:geo> 
             <geo:lat>28.471.244</geo:lat> 
             <geo:long>-16.325.184</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_DE_MAYORES_Y_CENTRO_DE_ESTANCIA_DIURNA_SANTA_CATALINA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_DE_MAYORES_Y_CENTRO_DE_ESTANCIA_DIURNA_SANTA_CATALINA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA DE MAYORES Y CENTRO DE ESTANCIA DIURNA SANTA CATALINA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 724 858" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2310,13 +2153,12 @@
             <vCard:geo>28.090.405, -16.724.891</vCard:geo> 
             <geo:lat>28.090.405</geo:lat> 
             <geo:long>-16.724.891</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_SOCIOSANITARIA_MARIA_AUXILIADORA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_SOCIOSANITARIA_MARIA_AUXILIADORA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA SOCIOSANITARIA MARIA AUXILIADORA</vCard:Name> 
@@ -2340,20 +2182,17 @@
             <vCard:geo>28.341.795, -16.418.656</vCard:geo> 
             <geo:lat>28.341.795</geo:lat> 
             <geo:long>-16.418.656</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_DE_MAYORES_Y_CENTRO_DE_DIA_DE_LOS_CRISTIANOS">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_DE_MAYORES_Y_CENTRO_DE_DIA_DE_LOS_CRISTIANOS">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA DE MAYORES Y CENTRO DE DIA DE LOS CRISTIANOS</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 788 067" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2370,13 +2209,12 @@
             <vCard:geo>28.052.237, -16.713.405</vCard:geo> 
             <geo:lat>28.052.237</geo:lat> 
             <geo:long>-16.713.405</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CASA_POSADA_HERMANO_PEDRO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CASA_POSADA_HERMANO_PEDRO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CASA POSADA HERMANO PEDRO</vCard:Name> 
@@ -2406,7 +2244,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_DIA_DE_MAYORES_DE_PUERTO_DE_LA_CRUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_DIA_DE_MAYORES_DE_PUERTO_DE_LA_CRUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA DE MAYORES DE PUERTO DE LA CRUZ</vCard:Name> 
@@ -2430,13 +2268,12 @@
             <vCard:geo>2.841.416, -16.555.027</vCard:geo> 
             <geo:lat>2.841.416</geo:lat> 
             <geo:long>-16.555.027</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CASA_DE_MAYORES_DE_BUENAVISTA_DEL_NORTE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CASA_DE_MAYORES_DE_BUENAVISTA_DEL_NORTE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CASA DE MAYORES DE BUENAVISTA DEL NORTE</vCard:Name> 
@@ -2460,20 +2297,17 @@
             <vCard:geo>28.374.453, -16.851.848</vCard:geo> 
             <geo:lat>28.374.453</geo:lat> 
             <geo:long>-16.851.848</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_FASNIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_FASNIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO FASNIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 530 354" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2490,20 +2324,17 @@
             <vCard:geo>28.235.548, -16.439.337</vCard:geo> 
             <geo:lat>28.235.548</geo:lat> 
             <geo:long>-16.439.337</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_RESIDENCIAL_DA_VIDA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_RESIDENCIAL_DA_VIDA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO RESIDENCIAL DA VIDA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 389 955" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2520,13 +2351,12 @@
             <vCard:geo>28.412.968, -16.533.501</vCard:geo> 
             <geo:lat>28.412.968</geo:lat> 
             <geo:long>-16.533.501</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ESTANCIA_DIURNA_PARA_MAYORES_VIRGEN_DEL_PINO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ESTANCIA_DIURNA_PARA_MAYORES_VIRGEN_DEL_PINO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ESTANCIA DIURNA PARA MAYORES VIRGEN DEL PINO</vCard:Name> 
@@ -2556,7 +2386,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_INTEGRAL_DE_MAYORES_DE_GUIA_DE_ISORA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_INTEGRAL_DE_MAYORES_DE_GUIA_DE_ISORA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO INTEGRAL DE MAYORES DE GUIA DE ISORA</vCard:Name> 
@@ -2580,20 +2410,17 @@
             <vCard:geo>28.213.423, -16.775.707</vCard:geo> 
             <geo:lat>28.213.423</geo:lat> 
             <geo:long>-16.775.707</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_GUIMAR">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_GUIMAR">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO GUIMAR</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 528 232" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2610,20 +2437,17 @@
             <vCard:geo>28.295.386, -16.376.892</vCard:geo> 
             <geo:lat>28.295.386</geo:lat> 
             <geo:long>-16.376.892</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_GEROVITAE_LA_GUANCHA_S.L.">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_GEROVITAE_LA_GUANCHA_S_L_">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO GEROVITAE LA GUANCHA S.L.</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 829 836" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2640,13 +2464,12 @@
             <vCard:geo>28.378.028, -16.651.665</vCard:geo> 
             <geo:lat>28.378.028</geo:lat> 
             <geo:long>-16.651.665</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/PARQUE_RESIDENCIAL_MAGNOLIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/PARQUE_RESIDENCIAL_MAGNOLIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>PARQUE RESIDENCIAL MAGNOLIA</vCard:Name> 
@@ -2676,14 +2499,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ESTANCIA_DIURNA_DE_MAYORES_LA_VICTORIA_DE_ACENTEJO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ESTANCIA_DIURNA_DE_MAYORES_LA_VICTORIA_DE_ACENTEJO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ESTANCIA DIURNA DE MAYORES LA VICTORIA DE ACENTEJO</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 580 031" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2700,56 +2521,22 @@
             <vCard:geo>28.434.518, -16.470.246</vCard:geo> 
             <geo:lat>28.434.518</geo:lat> 
             <geo:long>-16.470.246</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_DIA_DE_MAYORES_SAN_MIGUEL">
-    <org:hasRegisteredSite>
-      <org:Site>
-        <vCard:Name>CENTRO DE DIA DE MAYORES SAN MIGUEL</vCard:Name> 
-        <org:siteAddress>
-          <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
-            <vCard:hasTelephone rdf:parseType="Resource">
-              <vCard:hasValue rdf:resource="" /> 
-              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
-              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
-            </vCard:hasTelephone>
-            <vCard:Fax /> 
-            <vCard:hasAddress>
-              <vCard:Address>
-                <vCard:locality>SAN MIGUEL DE ABONA</vCard:locality> 
-                <vCard:postal-code>38620</vCard:postal-code> 
-                <vCard:street-address>A LOS ABRIGOS</vCard:street-address> 
-              </vCard:Address>
-            </vCard:hasAddress>
-            <vCard:geo>,</vCard:geo> 
-            <geo:lat /> 
-            <geo:long /> 
-            <foaf:homepage rdf:resource="" /> 
-          </vCard:Organization>
-        </org:siteAddress>
-      </org:Site>
-    </org:hasRegisteredSite>
-  </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_NUESTRA_SEÐORA_DEL_CARMEN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_NUESTRA_SEÐORA_DEL_CARMEN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO NUESTRA SEÐORA DEL CARMEN</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 355 608" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>REALEJOS. LOS</vCard:locality> 
@@ -2760,13 +2547,12 @@
             <vCard:geo>28.385.877, -16.582.336</vCard:geo> 
             <geo:lat>28.385.877</geo:lat> 
             <geo:long>-16.582.336</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/GERIATRICO_NUESTRA_SEÐORA_DE_LA_LUZ">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/GERIATRICO_NUESTRA_SEÐORA_DE_LA_LUZ">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>GERIATRICO NUESTRA SEÐORA DE LA LUZ</vCard:Name> 
@@ -2790,13 +2576,12 @@
             <vCard:geo>28.365.768, -16.814.771</vCard:geo> 
             <geo:lat>28.365.768</geo:lat> 
             <geo:long>-16.814.771</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CASA_DE_LOS_MAYORES_DE_LA_MATANZA_DE_ACENTEJO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CASA_DE_LOS_MAYORES_DE_LA_MATANZA_DE_ACENTEJO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CASA DE LOS MAYORES DE LA MATANZA DE ACENTEJO</vCard:Name> 
@@ -2809,7 +2594,6 @@
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
             </vCard:hasTelephone>
-            <vCard:Fax /> 
             <vCard:hasAddress>
               <vCard:Address>
                 <vCard:locality>MATANZA DE ACENTEJO. LA</vCard:locality> 
@@ -2820,20 +2604,17 @@
             <vCard:geo>28.447.626, -1.645.509</vCard:geo> 
             <geo:lat>28.447.626</geo:lat> 
             <geo:long>-1.645.509</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ESTANCIA_DIURNA_ACUFADE">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ESTANCIA_DIURNA_ACUFADE">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ESTANCIA DIURNA ACUFADE</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 577 668" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2856,14 +2637,12 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/PRIVILEGIUM_SAN_FERNANDO">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/PRIVILEGIUM_SAN_FERNANDO">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>PRIVILEGIUM SAN FERNANDO</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 376 113" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2880,20 +2659,17 @@
             <vCard:geo>28.407.286, -16.544.094</vCard:geo> 
             <geo:lat>28.407.286</geo:lat> 
             <geo:long>-16.544.094</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_SOCIOSANITARIO_SAN_JUAN_DE_LA_RAMBLA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_SOCIOSANITARIO_SAN_JUAN_DE_LA_RAMBLA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO SOCIOSANITARIO SAN JUAN DE LA RAMBLA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 360 015" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2910,20 +2686,17 @@
             <vCard:geo>28.395.287, -16.628.092</vCard:geo> 
             <geo:lat>28.395.287</geo:lat> 
             <geo:long>-16.628.092</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_ESTANCIA_DIURNA_PARA_PERSONAS_MAYORES_DE_LA_ALBORADA_DEL_PADRE_DAMIAN">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_ESTANCIA_DIURNA_PARA_PERSONAS_MAYORES_DE_LA_ALBORADA_DEL_PADRE_DAMIAN">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE ESTANCIA DIURNA PARA PERSONAS MAYORES DE LA ALBORADA DEL PADRE DAMIAN</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="922 700 886" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -2940,13 +2713,12 @@
             <vCard:geo>28.094.442, -16.622.234</vCard:geo> 
             <geo:lat>28.094.442</geo:lat> 
             <geo:long>-16.622.234</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_DE_DIA_TERAPEUTICO_PARA_ENFERMOS_DE_ALZHEIMER_OTRAS_DEMENCIAS_Y_SUS_FAMILIARES">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_DE_DIA_TERAPEUTICO_PARA_ENFERMOS_DE_ALZHEIMER_OTRAS_DEMENCIAS_Y_SUS_FAMILIARES">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO DE DIA TERAPEUTICO PARA ENFERMOS DE ALZHEIMER OTRAS DEMENCIAS Y SUS FAMILIARES</vCard:Name> 
@@ -2970,13 +2742,12 @@
             <vCard:geo>28.425.542, -16.492.137</vCard:geo> 
             <geo:lat>28.425.542</geo:lat> 
             <geo:long>-16.492.137</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_RESIDENCIAL_EL_MIRADOR_DE_IFARA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_RESIDENCIAL_EL_MIRADOR_DE_IFARA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO RESIDENCIAL EL MIRADOR DE IFARA</vCard:Name> 
@@ -3006,7 +2777,7 @@
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/CENTRO_RESIDENCIAL_EL_MIRADOR_DE_IFARA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/CENTRO_RESIDENCIAL_EL_MIRADOR_DE_IFARA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>CENTRO RESIDENCIAL EL MIRADOR DE IFARA</vCard:Name> 
@@ -3030,20 +2801,18 @@
             <vCard:geo>28.479.159, -16.257.302</vCard:geo> 
             <geo:lat>28.479.159</geo:lat> 
             <geo:long>-16.257.302</geo:long> 
-            <foaf:homepage rdf:resource="WWW.MIRADORDEIFARA.COM" /> 
+            <foaf:homepage rdf:resource="WWW.MIRADORDEIFARA.COM" />
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
-  <org:Organization rdf:about="http://taro.ull.es/resource/mayores/RESIDENCIA_TERCERA_EDAD_VIRGEN_DE_CANDELARIA">
+  <org:Organization rdf:about="http://taro.ull.es/resource/elderly/RESIDENCIA_TERCERA_EDAD_VIRGEN_DE_CANDELARIA">
     <org:hasRegisteredSite>
       <org:Site>
         <vCard:Name>RESIDENCIA TERCERA EDAD VIRGEN DE CANDELARIA</vCard:Name> 
         <org:siteAddress>
           <vCard:Organization>
-            <vCard:Email /> 
-            <vCard:hasEmail rdf:resource="mailto:" /> 
             <vCard:hasTelephone rdf:parseType="Resource">
               <vCard:hasValue rdf:resource="667 619 078" /> 
               <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
@@ -3060,7 +2829,6 @@
             <vCard:geo>28.464.088, -16.282.569</vCard:geo> 
             <geo:lat>28.464.088</geo:lat> 
             <geo:long>-16.282.569</geo:long> 
-            <foaf:homepage rdf:resource="" /> 
           </vCard:Organization>
         </org:siteAddress>
       </org:Site>

@@ -7,7 +7,7 @@
 * `GET` **/v1/botiquin?name=**[alphanumeric]
 * `GET` **/v1/disability?name=**[alphanumeric]
 * `GET` **/v1/elderly?name=**[alphanumeric]
-* `GET` **/v1/center?name=**[alphanumeric]
+* `GET` **/v1/center?name=**[alphanumeric] _(No funciona el rdf)_
 * `GET` **/v1/pharmacyuri?uri=**[alphanumeric]
 * `GET` **/v1/disabilityuri?uri=**[alphanumeric]
 * `GET` **/v1/botiquinuri?uri=**[alphanumeric] 
