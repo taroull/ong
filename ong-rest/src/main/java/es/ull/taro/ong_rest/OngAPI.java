@@ -109,6 +109,13 @@ public class OngAPI {
 		return elderlyService.describeUri(uri);
 	}
 	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("centeruri")
+	public HashMap<String, String> findCenterByUri(@QueryParam(value = "uri") String uri) throws Exception {
+		return centerService.describeUri(uri);
+	}
+	
 	/* LLamadas por radio */
 	
 	/* DBpedia*/

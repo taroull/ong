@@ -1,6 +1,7 @@
 package es.ull.taro.ong_core;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import org.apache.jena.riot.RDFDataMgr;
 
@@ -92,5 +93,42 @@ public class Ejemplo{
 ////			System.out.println(pharmacyURIs.get(i).getLatitude());
 ////			System.out.println(pharmacyURIs.get(i).getLongitude());
 ////		}
+//	}
+	
+	
+	
+//	
+//	public static HashMap<String, String> retrieveCenterInfo(String uri) {
+//		
+//		StringBuilder dbpediaQuery = new StringBuilder();
+//		dbpediaQuery.append("PREFIX dbpedia-owl: <http://dbpedia.org/ontology/> ");
+//		dbpediaQuery.append("PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ");
+//		dbpediaQuery.append("SELECT ?camas ?afi ?des ");
+//		dbpediaQuery.append("WHERE {");
+//		//dbpediaQuery.append("?camas dcterms:subject <").append(uri).append(">");
+//		dbpediaQuery.append("  <").append(uri).append("> dbpedia-owl:bedCount ?camas .");
+//		dbpediaQuery.append("  <").append(uri).append("> dbpedia-owl:affiliation ?afi .");
+//		dbpediaQuery.append("  <").append(uri).append("> dbpedia-owl:abstract ?des");
+//		dbpediaQuery.append("}"); 
+//		
+//		QueryExecution qe2 = QueryExecutionFactory.sparqlService("http://es.dbpedia.org/sparql", dbpediaQuery.toString());
+//		HashMap<String, String> results = new HashMap<String, String>();
+//		try {
+//			com.hp.hpl.jena.query.ResultSet ns = qe2.execSelect();
+//			while (ns.hasNext()) {
+//				QuerySolution soln = ns.nextSolution();
+//				results.put("Camas", soln.getLiteral("?camas").toString());
+//				results.put("Descripción", soln.getLiteral("?des").toString());
+//				results.put("Afiliación", soln.getResource("?afi").toString());
+//				System.out.println(results);
+//			}
+//		} finally {
+//			qe2.close();
+//		}
+//		return results;
+//	}
+//
+//	public static void main(String[] args){
+//		retrieveCenterInfo("http://es.dbpedia.org/resource/Hospital_Universitario_de_Canarias");
 //	}
 }

@@ -15,10 +15,12 @@ public class DBpediaServiceImpl implements DBpediaService{
 		
 		StringBuilder dbpediaQuery = new StringBuilder();
 		dbpediaQuery.append("PREFIX dbpedia-owl: <http://dbpedia.org/ontology/> ");
-		dbpediaQuery.append("prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ");
-		dbpediaQuery.append("SELECT ?beds ");
+		dbpediaQuery.append("PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ");
+		dbpediaQuery.append("SELECT ?camas ?afi ?des ");
 		dbpediaQuery.append("WHERE {");
-		dbpediaQuery.append("  <").append(uri).append("> dbpedia-owl:bedCount ?beds");
+		dbpediaQuery.append("  <").append(uri).append("> dbpedia-owl:bedCount ?camas .");
+		dbpediaQuery.append("  <").append(uri).append("> dbpedia-owl:affiliation ?afi .");
+		dbpediaQuery.append("  <").append(uri).append("> dbpedia-owl:abstract ?des");
 		dbpediaQuery.append("}"); 
 		
 		QueryExecution qe2 = QueryExecutionFactory.sparqlService("http://es.dbpedia.org/sparql", dbpediaQuery.toString());
@@ -27,7 +29,9 @@ public class DBpediaServiceImpl implements DBpediaService{
 			com.hp.hpl.jena.query.ResultSet ns = qe2.execSelect();
 			while (ns.hasNext()) {
 				QuerySolution soln = ns.nextSolution();
-				results.put("Camas", soln.getLiteral("?beds").toString());
+				results.put("Camas", soln.getLiteral("?camas").toString());
+				results.put("Descripción", soln.getLiteral("?des").toString());
+				results.put("Afiliación", soln.getResource("?afi").toString());
 			}
 		} finally {
 			qe2.close();
