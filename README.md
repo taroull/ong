@@ -13,3 +13,4 @@
 * `GET` **/v1/botiquinuri?uri=**[alphanumeric] 
 * `GET` **/v1/elderlyuri?uri=**[alphanumeric]
 * `GET` **/v1/info?uri=**[alphanumeric]
+* `GET` **/v1/centercat?category=**[alphanumeric]

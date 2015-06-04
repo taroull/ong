@@ -127,8 +127,8 @@ public class DisabilityServiceImpl implements DisabilityService{
 		sparqlQuery2.append("{ ");
 		sparqlQuery2.append("OPTIONAL {?B3_Phone vCard:Fax ?Fax . }");
 		sparqlQuery2.append("OPTIONAL {?C1_Info foaf:homepage ?HomePage . }");
-		sparqlQuery2.append("OPTIONAL {?C2_Info vCard:Email ?C3_Info . }");
-		sparqlQuery2.append("OPTIONAL {?C3_Info vCard:hasEmail ?Email . }");
+		sparqlQuery2.append("OPTIONAL {?C2_Info vCard:Email ?Email . }");
+//		sparqlQuery2.append("OPTIONAL {?C3_Info vCard:hasEmail ?Email . }");
 		sparqlQuery2.append("  ?resource vCard:Name ?Name . ");
 		sparqlQuery2.append("  ?A1_Location vCard:postal-code ?PostCode . ");
 		sparqlQuery2.append("  ?A2_Location vCard:street-address ?Street . ");
@@ -148,8 +148,8 @@ public class DisabilityServiceImpl implements DisabilityService{
 				results.put("Domicilio", soln.getLiteral("?Street").toString());
 				results.put("Municipio", soln.getLiteral("?Locality").toString());
 				results.put("Teléfono", soln.getResource("?Telephone").toString());
-				if (soln.getResource("?Email") != null){
-					results.put("Email", soln.getResource("?Email").toString());
+				if (soln.getLiteral("?Email") != null){
+					results.put("Email", soln.getLiteral("?Email").toString());
 				}
 				if (soln.getLiteral("?Fax") != null){
 					results.put("Fax", soln.getLiteral("?Fax").toString());

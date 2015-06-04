@@ -12,6 +12,7 @@ import javax.ws.rs.core.MediaType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import es.ull.taro.ong_core.domain.CenterResource;
 import es.ull.taro.ong_core.domain.GeoResource;
 import es.ull.taro.ong_core.services.BotiquinService;
 import es.ull.taro.ong_core.services.CenterService;
@@ -116,7 +117,7 @@ public class OngAPI {
 		return centerService.describeUri(uri);
 	}
 	
-	/* LLamadas por radio */
+
 	
 	/* DBpedia*/
 	
@@ -127,10 +128,20 @@ public class OngAPI {
 		return dbpediaService.retrieveCenterInfo(uri);
 	}
 	
-//	@GET
-//	@Produces(MediaType.APPLICATION_JSON)
-//	@Path("pharmacyAround")
-//	public ArrayList<GeoResource> findPharmacyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
-//		return pharmacyService.findPharmacyAround(uri, radius);
-//	}
+	/* Categoria */
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("centercat")
+	public  ArrayList<CenterResource> findCenterByCategory(@QueryParam(value = "category") String category) throws Exception {
+		return centerService.findCategory(category);
+	}
+	
+	/* LLamadas por radio */
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("pharmacyAround")
+	public ArrayList<String> findPharmacyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+		return pharmacyService.retrievePharmacyAround(uri, radius);
+	}
 }

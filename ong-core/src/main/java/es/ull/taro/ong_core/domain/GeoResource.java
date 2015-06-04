@@ -10,6 +10,7 @@ public class GeoResource implements Serializable{
 	private String latitude;
 	private String longitude;
 	private String name;
+	
 
 	
 	

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+          xmlns:org="http://www.w3.org/TR/vocab-org/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:foaf="http://xmlns.com/foaf/spec/"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:vCard="http://www.w3.org/TR/vcard-rdf/">
+
+  <org:Organization rdf:about="http://taro.ull.es/resource/centers/HOSPITAL_UNIVERSITARIO_DE_CANARIAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOSPITAL UNIVERSITARIO DE CANARIAS</vCard:Name>
+        <org:classification>Endocrinología</org:classification> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 678 000" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LAGUNA (LA)</vCard:locality> 
+                <vCard:postal-code>38320</vCard:postal-code> 
+                <vCard:street-address /> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.46388, -16.2898238</vCard:geo> 
+            <geo:lat>28.46388</geo:lat> 
+            <geo:long>-16.2898238</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_de_Canarias"/>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/centers/HOSPITAL_UNIVERSITARIO_DE_CANARIAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOSPITAL UNIVERSITARIO DE CANARIAS</vCard:Name>
+        <org:classification>Nutrición y Dietética</org:classification> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 678 000" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LAGUNA (LA)</vCard:locality> 
+                <vCard:postal-code>38320</vCard:postal-code> 
+                <vCard:street-address /> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.46388, -16.2898238</vCard:geo> 
+            <geo:lat>28.46388</geo:lat> 
+            <geo:long>-16.2898238</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_de_Canarias"/>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/centers/HOSPITAL_UNIVERSITARIO_DE_CANARIAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOSPITAL UNIVERSITARIO DE CANARIAS</vCard:Name>
+        <org:classification>Neumología</org:classification> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 678 000" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LAGUNA (LA)</vCard:locality> 
+                <vCard:postal-code>38320</vCard:postal-code> 
+                <vCard:street-address /> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.46388, -16.2898238</vCard:geo> 
+            <geo:lat>28.46388</geo:lat> 
+            <geo:long>-16.2898238</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_de_Canarias"/>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/centers/HOSPITAL_UNIVERSITARIO_DE_CANARIAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOSPITAL UNIVERSITARIO DE CANARIAS</vCard:Name>
+        <org:classification>Neurología</org:classification> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 678 000" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LAGUNA (LA)</vCard:locality> 
+                <vCard:postal-code>38320</vCard:postal-code> 
+                <vCard:street-address /> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.46388, -16.2898238</vCard:geo> 
+            <geo:lat>28.46388</geo:lat> 
+            <geo:long>-16.2898238</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_de_Canarias"/>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/centers/HOSPITAL_UNIVERSITARIO_DE_CANARIAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOSPITAL UNIVERSITARIO DE CANARIAS</vCard:Name>
+        <org:classification>Pediatría</org:classification> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 678 000" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LAGUNA (LA)</vCard:locality> 
+                <vCard:postal-code>38320</vCard:postal-code> 
+                <vCard:street-address /> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.46388, -16.2898238</vCard:geo> 
+            <geo:lat>28.46388</geo:lat> 
+            <geo:long>-16.2898238</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_de_Canarias"/>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/centers/HOSPITAL_UNIVERSITARIO_DE_CANARIAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOSPITAL UNIVERSITARIO DE CANARIAS</vCard:Name>
+        <org:classification>Reumatología</org:classification> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 678 000" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LAGUNA (LA)</vCard:locality> 
+                <vCard:postal-code>38320</vCard:postal-code> 
+                <vCard:street-address /> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.46388, -16.2898238</vCard:geo> 
+            <geo:lat>28.46388</geo:lat> 
+            <geo:long>-16.2898238</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_de_Canarias"/>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/centers/HOSPITAL_UNIVERSITARIO_DE_CANARIAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOSPITAL UNIVERSITARIO DE CANARIAS</vCard:Name>
+        <org:classification>Ginecología</org:classification> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 678 000" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LAGUNA (LA)</vCard:locality> 
+                <vCard:postal-code>38320</vCard:postal-code> 
+                <vCard:street-address /> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.46388, -16.2898238</vCard:geo> 
+            <geo:lat>28.46388</geo:lat> 
+            <geo:long>-16.2898238</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_de_Canarias"/>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+  <org:Organization rdf:about="http://taro.ull.es/resource/centers/HOSPITAL_UNIVERSITARIO_DE_CANARIAS">
+    <org:hasRegisteredSite>
+      <org:Site>
+        <vCard:Name>HOSPITAL UNIVERSITARIO DE CANARIAS</vCard:Name>
+        <org:classification>Inseminación artificial</org:classification> 
+        <org:siteAddress>
+          <vCard:Organization>
+            <vCard:hasTelephone rdf:parseType="Resource">
+              <vCard:hasValue rdf:resource="922 678 000" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" /> 
+              <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice" /> 
+            </vCard:hasTelephone>
+            <vCard:hasAddress>
+              <vCard:Address>
+                <vCard:locality>LAGUNA (LA)</vCard:locality> 
+                <vCard:postal-code>38320</vCard:postal-code> 
+                <vCard:street-address /> 
+              </vCard:Address>
+            </vCard:hasAddress>
+            <vCard:geo>28.46388, -16.2898238</vCard:geo> 
+            <geo:lat>28.46388</geo:lat> 
+            <geo:long>-16.2898238</geo:long> 
+          </vCard:Organization>
+        </org:siteAddress>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_de_Canarias"/>
+      </org:Site>
+    </org:hasRegisteredSite>
+  </org:Organization>
+</rdf:RDF>
