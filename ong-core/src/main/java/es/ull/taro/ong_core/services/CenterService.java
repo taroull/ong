@@ -16,4 +16,7 @@ public interface CenterService {
 	
 	public  ArrayList<CenterResource> findCategory(String category);
 
+	public ArrayList<GeoResource> retrieveCenterAround(String uri, int radius);
+	
+	public ArrayList<GeoResource> findCenterAround(String latitude, String longitude, int radius);
 }

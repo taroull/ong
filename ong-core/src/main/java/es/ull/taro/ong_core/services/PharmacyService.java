@@ -13,11 +13,8 @@ public interface PharmacyService {
 	
 	public HashMap<String, String> describeUri(String uri);
 	
-	public ArrayList<String> retrievePharmacyAround(String uri, int radius);
+	public ArrayList<GeoResource> retrievePharmacyAround(String uri, int radius);
 	
 	public ArrayList<GeoResource> findPharmacyAround(String latitude, String longitude, int radius);
 	
-//	public ArrayList<String> findAround(float latitude, float longitude, int radiusInMeters);
-//
-//	public ArrayList<GeoResource> findPharmacyAround(String uri, int radius);
 }

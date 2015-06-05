@@ -11,5 +11,9 @@ public interface DisabilityService {
 
 	public ArrayList<GeoResource> find(String name);
 
-	public HashMap<String, String> describeUri(String uri); 
+	public HashMap<String, String> describeUri(String uri);
+	
+	public ArrayList<GeoResource> retrieveDisabilityAround(String uri, int radius);
+	
+	public ArrayList<GeoResource> findDisabilityAround(String latitude, String longitude, int radius);
 }

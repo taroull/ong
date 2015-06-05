@@ -84,43 +84,76 @@ public class OngAPI {
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	@Path("pharmacyuri")
+	@Path("pharmacyUri")
 	public HashMap<String, String> findPharmacyByUri(@QueryParam(value = "uri") String uri) throws Exception {
 		return pharmacyService.describeUri(uri);
 	}
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	@Path("botiquinuri")
+	@Path("botiquinUri")
 	public HashMap<String, String> findBotiquinByUri(@QueryParam(value = "uri") String uri) throws Exception {
 		return botiquinService.describeUri(uri);
 	}
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	@Path("disabilityuri")
+	@Path("disabilityUri")
 	public HashMap<String, String> findDisabilityByUri(@QueryParam(value = "uri") String uri) throws Exception {
 		return disabilityService.describeUri(uri);
 	}
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	@Path("elderlyuri")
+	@Path("elderlyUri")
 	public HashMap<String, String> findElderlyByUri(@QueryParam(value = "uri") String uri) throws Exception {
 		return elderlyService.describeUri(uri);
 	}
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	@Path("centeruri")
+	@Path("centerUri")
 	public HashMap<String, String> findCenterByUri(@QueryParam(value = "uri") String uri) throws Exception {
 		return centerService.describeUri(uri);
 	}
 	
-
+	/* Radio */
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("centerAround")
+	public ArrayList<GeoResource> findCenterAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+		return centerService.retrieveCenterAround(uri, radius);
+	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("pharmacyAround")
+	public ArrayList<GeoResource> findPharmacyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+		return pharmacyService.retrievePharmacyAround(uri, radius);
+	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("botiquinAround")
+	public ArrayList<GeoResource> findBotiquinAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+		return botiquinService.retrieveBotiquinAround(uri, radius);
+	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("elderlyAround")
+	public ArrayList<GeoResource> findElderlyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+		return elderlyService.retrieveElderlyAround(uri, radius);
+	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("disabilityAround")
+	public ArrayList<GeoResource> findDisabilityAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+		return disabilityService.retrieveDisabilityAround(uri, radius);
+	}
 	
 	/* DBpedia*/
-	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("info")
@@ -132,16 +165,8 @@ public class OngAPI {
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	@Path("centercat")
+	@Path("centerCat")
 	public  ArrayList<CenterResource> findCenterByCategory(@QueryParam(value = "category") String category) throws Exception {
 		return centerService.findCategory(category);
-	}
-	
-	/* LLamadas por radio */
-	@GET
-	@Produces(MediaType.APPLICATION_JSON)
-	@Path("pharmacyAround")
-	public ArrayList<String> findPharmacyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
-		return pharmacyService.retrievePharmacyAround(uri, radius);
 	}
 }

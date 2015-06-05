@@ -11,5 +11,9 @@ public interface ElderlyService {
 
 	public ArrayList<GeoResource> find(String name);
 
-	public HashMap<String, String> describeUri(String uri); 
+	public HashMap<String, String> describeUri(String uri);
+	
+	public ArrayList<GeoResource> retrieveElderlyAround(String uri, int radius);
+	
+	public ArrayList<GeoResource> findElderlyAround(String latitude, String longitude, int radius);
 }
