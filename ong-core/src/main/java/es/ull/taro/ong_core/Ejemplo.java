@@ -2,6 +2,7 @@ package es.ull.taro.ong_core;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Map.Entry;
 
 import org.apache.jena.riot.RDFDataMgr;
@@ -183,7 +184,7 @@ public class Ejemplo{
 	}
 	
 	
-	public static ArrayList<GeoResource> retrievePharmacyAround(String uri, int radius) {
+	public static HashMap<String, String> retrievePharmacyAround(String uri, int radius) {
 		
 		HashMap<String, String> resource = describeUri(uri);
 
@@ -199,14 +200,13 @@ public class Ejemplo{
 			}
 			
 		}
-		System.out.println(latitude);
-		System.out.println(longitude);
-		ArrayList<GeoResource> around = findPharmacyAround(latitude, longitude , radius);
+
+		HashMap<String, String> around = findPharmacyAround(latitude, longitude , radius);
 		return around;
 	
 	}
 	
-	public static ArrayList<GeoResource> findPharmacyAround(String latitude, String longitude, int radius) {
+	public static HashMap<String, String> findPharmacyAround(String latitude, String longitude, int radius) {
 		
 		Model model = loadRDFFile();
 
@@ -238,17 +238,21 @@ public class Ejemplo{
 		
 		
 
-		ArrayList<GeoResource> uris = new ArrayList<GeoResource>();
+//		ArrayList<GeoResource> uris = new ArrayList<GeoResource>();
+		HashMap<String, String> uris = new HashMap<String, String>();
 
 		QueryExecution qe = QueryExecutionFactory.create(sparqlQuery.toString(), model);
 		try {
 			ResultSet results = qe.execSelect();
 			for (; results.hasNext();) {
 				QuerySolution sol = (QuerySolution) results.next();
-				GeoResource resource = new GeoResource();
-				resource.setUri(sol.getResource("?organizacion").getURI().toString());
-				resource.setName(sol.getLiteral("?title").toString());
-				uris.add(resource);		
+//				GeoResource resource = new GeoResource();
+//				resource.setUri(sol.getResource("?organizacion").getURI().toString());
+//				resource.setName(sol.getLiteral("?title").toString());
+//				uris.add(resource);		
+				String resource = sol.getResource("?organizacion").getURI().toString();
+				String title = sol.getLiteral("?title").toString();
+				uris.put(resource, title);
 			}
 		} finally {
 			qe.close();
@@ -265,11 +269,12 @@ public class Ejemplo{
 	
 	
 	public static void main(String[] args){
-		ArrayList<GeoResource> pharmacyURIs = retrievePharmacyAround("http://taro.ull.es/resource/pharmacy/BONNET_PEREZ_ANDRES",500);
-		for(int i = 0; i<pharmacyURIs.size(); i++){
-			System.out.println(pharmacyURIs.get(i).getName());
-			System.out.println(pharmacyURIs.get(i).getUri());
-		}
+		HashMap<String, String> pharmacyURIs = retrievePharmacyAround("http://taro.ull.es/resource/pharmacy/BONNET_PEREZ_ANDRES",500);
+		System.out.println(pharmacyURIs);
+//		for(int i = 0; i<pharmacyURIs.size(); i++){
+//			System.out.println(pharmacyURIs.get(i).getName());
+//			System.out.println(pharmacyURIs.get(i).getUri());
+//		}
 	}
 //
 //	public static void main(String[] args){

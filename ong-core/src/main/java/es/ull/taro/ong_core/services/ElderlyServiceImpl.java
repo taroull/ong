@@ -168,7 +168,7 @@ public class ElderlyServiceImpl implements ElderlyService {
 		return results;
 	}
 	
-public ArrayList<GeoResource> retrieveElderlyAround(String uri, int radius) {
+	public HashMap<String, String> retrieveElderlyAround(String uri, int radius) {
 		
 		HashMap<String, String> resource = describeUri(uri);
 
@@ -185,12 +185,12 @@ public ArrayList<GeoResource> retrieveElderlyAround(String uri, int radius) {
 			
 		}
 
-		ArrayList<GeoResource> around = findElderlyAround(latitude, longitude , radius);
+		HashMap<String, String> around = findElderlyAround(latitude, longitude , radius);
 		return around;
 	
 	}
 	
-	public ArrayList<GeoResource> findElderlyAround(String latitude, String longitude, int radius) {
+	public HashMap<String, String> findElderlyAround(String latitude, String longitude, int radius) {
 		
 		Model model = loadRDFFile();
 
@@ -222,17 +222,16 @@ public ArrayList<GeoResource> retrieveElderlyAround(String uri, int radius) {
 		
 		
 
-		ArrayList<GeoResource> uris = new ArrayList<GeoResource>();
+		HashMap<String, String> uris = new HashMap<String, String>();
 
 		QueryExecution qe = QueryExecutionFactory.create(sparqlQuery.toString(), model);
 		try {
 			ResultSet results = qe.execSelect();
 			for (; results.hasNext();) {
 				QuerySolution sol = (QuerySolution) results.next();
-				GeoResource resource = new GeoResource();
-				resource.setUri(sol.getResource("?organizacion").getURI().toString());
-				resource.setName(sol.getLiteral("?title").toString());
-				uris.add(resource);		
+				String resource = sol.getResource("?organizacion").getURI().toString();
+				String title = sol.getLiteral("?title").toString();
+				uris.put(resource, title);	
 			}
 		} finally {
 			qe.close();

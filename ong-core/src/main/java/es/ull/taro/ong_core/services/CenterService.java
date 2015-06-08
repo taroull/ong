@@ -14,9 +14,9 @@ public interface CenterService {
 	
 	public HashMap<String, String> describeUri(String uri);
 	
-	public  ArrayList<CenterResource> findCategory(String category);
+	public ArrayList<CenterResource> findCategory(String category);
 
-	public ArrayList<GeoResource> retrieveCenterAround(String uri, int radius);
+	public HashMap<String, String> retrieveCenterAround(String uri, int radius);
 	
-	public ArrayList<GeoResource> findCenterAround(String latitude, String longitude, int radius);
+	public HashMap<String, String> findCenterAround(String latitude, String longitude, int radius);
 }

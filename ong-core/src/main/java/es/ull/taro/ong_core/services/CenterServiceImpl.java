@@ -136,7 +136,7 @@ public class CenterServiceImpl implements CenterService {
 		return results;
 	}
 	
-	public ArrayList<GeoResource> retrieveCenterAround(String uri, int radius) {
+	public HashMap<String, String> retrieveCenterAround(String uri, int radius) {
 		
 		HashMap<String, String> resource = describeUri(uri);
 
@@ -153,12 +153,12 @@ public class CenterServiceImpl implements CenterService {
 			
 		}
 
-		ArrayList<GeoResource> around = findCenterAround(latitude, longitude , radius);
+		HashMap<String, String> around = findCenterAround(latitude, longitude , radius);
 		return around;
 	
 	}
 	
-	public ArrayList<GeoResource> findCenterAround(String latitude, String longitude, int radius) {
+	public HashMap<String, String> findCenterAround(String latitude, String longitude, int radius) {
 		
 		Model model = loadRDFFile();
 
@@ -190,17 +190,16 @@ public class CenterServiceImpl implements CenterService {
 		
 		
 
-		ArrayList<GeoResource> uris = new ArrayList<GeoResource>();
+		HashMap<String, String> uris = new HashMap<String, String>();
 
 		QueryExecution qe = QueryExecutionFactory.create(sparqlQuery.toString(), model);
 		try {
 			ResultSet results = qe.execSelect();
 			for (; results.hasNext();) {
 				QuerySolution sol = (QuerySolution) results.next();
-				GeoResource resource = new GeoResource();
-				resource.setUri(sol.getResource("?organizacion").getURI().toString());
-				resource.setName(sol.getLiteral("?title").toString());
-				uris.add(resource);		
+				String resource = sol.getResource("?organizacion").getURI().toString();
+				String title = sol.getLiteral("?title").toString();
+				uris.put(resource, title);		
 			}
 		} finally {
 			qe.close();
@@ -213,7 +212,7 @@ public class CenterServiceImpl implements CenterService {
 	@Override
 	public ArrayList<CenterResource> findCategory(String category) {
 
-		Model model = loadRDFFile2();
+		Model model = loadRDFFile();
 
 		StringBuilder sparqlQuery = new StringBuilder();
 		
@@ -299,11 +298,11 @@ public class CenterServiceImpl implements CenterService {
 //		return uris;
 //	}
 
-	protected static Model loadRDFFile() {
-		return RDFDataMgr.loadModel("centers.rdf");
-	}
+//	protected static Model loadRDFFile() {
+//		return RDFDataMgr.loadModel("centers.rdf");
+//	}
 	
-	protected static Model loadRDFFile2() {
+	protected static Model loadRDFFile() {
 		return RDFDataMgr.loadModel("centerscategory.rdf");
 	}
 }

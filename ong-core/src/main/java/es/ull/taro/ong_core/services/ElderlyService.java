@@ -13,7 +13,7 @@ public interface ElderlyService {
 
 	public HashMap<String, String> describeUri(String uri);
 	
-	public ArrayList<GeoResource> retrieveElderlyAround(String uri, int radius);
+	public HashMap<String, String> retrieveElderlyAround(String uri, int radius);
 	
-	public ArrayList<GeoResource> findElderlyAround(String latitude, String longitude, int radius);
+	public HashMap<String, String> findElderlyAround(String latitude, String longitude, int radius);
 }

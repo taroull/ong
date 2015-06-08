@@ -13,7 +13,7 @@ public interface BotiquinService {
 
 	public HashMap<String, String> describeUri(String uri); 
 	
-	public ArrayList<GeoResource> retrieveBotiquinAround(String uri, int radius);
+	public HashMap<String, String> retrieveBotiquinAround(String uri, int radius);
 	
-	public ArrayList<GeoResource> findBotiquinAround(String latitude, String longitude, int radius);
+	public HashMap<String, String> findBotiquinAround(String latitude, String longitude, int radius);
 }
