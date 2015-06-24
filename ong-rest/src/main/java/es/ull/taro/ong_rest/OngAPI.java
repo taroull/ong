@@ -121,35 +121,35 @@ public class OngAPI {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("centerAround")
-	public HashMap<String, String> findCenterAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+	public ArrayList<GeoResource> findCenterAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
 		return centerService.retrieveCenterAround(uri, radius);
 	}
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("pharmacyAround")
-	public HashMap<String, String> findPharmacyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+	public ArrayList<GeoResource> findPharmacyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
 		return pharmacyService.retrievePharmacyAround(uri, radius);
 	}
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("botiquinAround")
-	public HashMap<String, String> findBotiquinAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+	public ArrayList<GeoResource> findBotiquinAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
 		return botiquinService.retrieveBotiquinAround(uri, radius);
 	}
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("elderlyAround")
-	public HashMap<String, String> findElderlyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+	public ArrayList<GeoResource> findElderlyAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
 		return elderlyService.retrieveElderlyAround(uri, radius);
 	}
 	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("disabilityAround")
-	public HashMap<String, String> findDisabilityAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
+	public ArrayList<GeoResource> findDisabilityAround(@QueryParam(value = "uri") String uri, @QueryParam(value = "radius") int radius) throws Exception {
 		return disabilityService.retrieveDisabilityAround(uri, radius);
 	}
 	

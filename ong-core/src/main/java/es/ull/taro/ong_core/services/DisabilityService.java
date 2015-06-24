@@ -13,7 +13,7 @@ public interface DisabilityService {
 
 	public HashMap<String, String> describeUri(String uri);
 	
-	public HashMap<String, String> retrieveDisabilityAround(String uri, int radius);
+	public ArrayList<GeoResource> retrieveDisabilityAround(String uri, int radius);
 	
-	public HashMap<String, String> findDisabilityAround(String latitude, String longitude, int radius);
+	public ArrayList<GeoResource> findDisabilityAround(String latitude, String longitude, int radius);
 }

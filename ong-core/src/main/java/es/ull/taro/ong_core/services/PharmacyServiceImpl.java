@@ -1,9 +1,7 @@
 package es.ull.taro.ong_core.services;
 
-import java.awt.List;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map.Entry;
 
 import org.apache.jena.riot.RDFDataMgr;
@@ -225,7 +223,7 @@ public class PharmacyServiceImpl implements PharmacyService{
 	}
 	
 	
-	public HashMap<String, String> retrievePharmacyAround(String uri, int radius) {
+	public ArrayList<GeoResource> retrievePharmacyAround(String uri, int radius) {
 		
 		HashMap<String, String> resource = describeUri(uri);
 
@@ -242,12 +240,12 @@ public class PharmacyServiceImpl implements PharmacyService{
 			
 		}
 
-		HashMap<String, String> around = findPharmacyAround(latitude, longitude , radius);
+		ArrayList<GeoResource> around = findPharmacyAround(latitude, longitude , radius);
 		return around;
 	
 	}
 	
-	public HashMap<String, String> findPharmacyAround(String latitude, String longitude, int radius) {
+	public ArrayList<GeoResource> findPharmacyAround(String latitude, String longitude, int radius) {
 		
 		Model model = loadRDFFile();
 
@@ -279,16 +277,17 @@ public class PharmacyServiceImpl implements PharmacyService{
 		
 		
 
-		HashMap<String, String> uris = new HashMap<String, String>();
+		ArrayList<GeoResource> uris = new ArrayList<GeoResource>();
 
 		QueryExecution qe = QueryExecutionFactory.create(sparqlQuery.toString(), model);
 		try {
 			ResultSet results = qe.execSelect();
 			for (; results.hasNext();) {
-				QuerySolution sol = (QuerySolution) results.next();
-				String resource = sol.getResource("?organizacion").getURI().toString();
-				String title = sol.getLiteral("?title").toString();
-				uris.put(resource, title);	
+				QuerySolution sol = (QuerySolution) results.next();GeoResource resource = new GeoResource();
+				resource.setUri(sol.getResource("?organizacion").getURI().toString());
+				resource.setName(sol.getLiteral("?title").toString());
+			
+				uris.add(resource);		
 			}
 		} finally {
 			qe.close();

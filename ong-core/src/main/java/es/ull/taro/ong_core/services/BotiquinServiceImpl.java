@@ -152,7 +152,7 @@ public class BotiquinServiceImpl implements BotiquinService{
 		return results;
 	}
 	
-	public HashMap<String, String> retrieveBotiquinAround(String uri, int radius) {
+	public ArrayList<GeoResource> retrieveBotiquinAround(String uri, int radius) {
 		
 		HashMap<String, String> resource = describeUri(uri);
 
@@ -169,12 +169,12 @@ public class BotiquinServiceImpl implements BotiquinService{
 			
 		}
 
-		HashMap<String, String> around = findBotiquinAround(latitude, longitude , radius);
+		ArrayList<GeoResource> around = findBotiquinAround(latitude, longitude , radius);
 		return around;
 	
 	}
 	
-	public HashMap<String, String> findBotiquinAround(String latitude, String longitude, int radius) {
+	public ArrayList<GeoResource> findBotiquinAround(String latitude, String longitude, int radius) {
 		
 		Model model = loadRDFFile();
 
@@ -204,18 +204,19 @@ public class BotiquinServiceImpl implements BotiquinService{
 		sparqlQuery.append("  && xsd:double('").append(longitude).append("') - xsd:double(?long) <= ").append(convertedRadius).append(" ). ");
 		sparqlQuery.append("}");
 		
-		
 
-		HashMap<String, String> uris = new HashMap<String, String>();
+		ArrayList<GeoResource> uris = new ArrayList<GeoResource>();
 
 		QueryExecution qe = QueryExecutionFactory.create(sparqlQuery.toString(), model);
 		try {
 			ResultSet results = qe.execSelect();
 			for (; results.hasNext();) {
 				QuerySolution sol = (QuerySolution) results.next();
-				String resource = sol.getResource("?organizacion").getURI().toString();
-				String title = sol.getLiteral("?title").toString();
-				uris.put(resource, title);	
+				GeoResource resource = new GeoResource();
+				resource.setUri(sol.getResource("?organizacion").getURI().toString());
+				resource.setName(sol.getLiteral("?title").toString());
+			
+				uris.add(resource);	
 			}
 		} finally {
 			qe.close();

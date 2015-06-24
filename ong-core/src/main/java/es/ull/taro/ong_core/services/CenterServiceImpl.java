@@ -136,7 +136,7 @@ public class CenterServiceImpl implements CenterService {
 		return results;
 	}
 	
-	public HashMap<String, String> retrieveCenterAround(String uri, int radius) {
+	public ArrayList<GeoResource> retrieveCenterAround(String uri, int radius) {
 		
 		HashMap<String, String> resource = describeUri(uri);
 
@@ -153,12 +153,12 @@ public class CenterServiceImpl implements CenterService {
 			
 		}
 
-		HashMap<String, String> around = findCenterAround(latitude, longitude , radius);
+		ArrayList<GeoResource> around = findCenterAround(latitude, longitude , radius);
 		return around;
 	
 	}
 	
-	public HashMap<String, String> findCenterAround(String latitude, String longitude, int radius) {
+	public ArrayList<GeoResource> findCenterAround(String latitude, String longitude, int radius) {
 		
 		Model model = loadRDFFile();
 
@@ -190,16 +190,18 @@ public class CenterServiceImpl implements CenterService {
 		
 		
 
-		HashMap<String, String> uris = new HashMap<String, String>();
+		ArrayList<GeoResource> uris = new ArrayList<GeoResource>();
 
 		QueryExecution qe = QueryExecutionFactory.create(sparqlQuery.toString(), model);
 		try {
 			ResultSet results = qe.execSelect();
 			for (; results.hasNext();) {
 				QuerySolution sol = (QuerySolution) results.next();
-				String resource = sol.getResource("?organizacion").getURI().toString();
-				String title = sol.getLiteral("?title").toString();
-				uris.put(resource, title);		
+				GeoResource resource = new GeoResource();
+				resource.setUri(sol.getResource("?organizacion").getURI().toString());
+				resource.setName(sol.getLiteral("?title").toString());
+			
+				uris.add(resource);		
 			}
 		} finally {
 			qe.close();
