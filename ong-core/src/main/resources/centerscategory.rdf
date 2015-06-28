@@ -43451,7 +43451,7 @@
             <geo:long>-16.2898238</geo:long> 
           </vCard:Organization>
         </org:siteAddress>
-        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_de_Canarias"/>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/Hospital_Universitario_de_Canarias"/>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
@@ -46132,7 +46132,7 @@
             <foaf:homepage  rdf:resource="http://www.hospitaldelacandelaria.com" /> 
           </vCard:Organization>
         </org:siteAddress>
-        <owl:sameAs rdf:resource="http://es.dbpedia.org/page/Hospital_Universitario_Nuestra_Señora_de_Candelaria"/>
+        <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/Hospital_Universitario_Nuestra_Señora_de_Candelaria"/>
       </org:Site>
     </org:hasRegisteredSite>
   </org:Organization>
